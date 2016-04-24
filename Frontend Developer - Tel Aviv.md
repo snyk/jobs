@@ -1,6 +1,6 @@
 ## Frontend Developer - Tel Aviv
 
-We are looking for a front-end developer with a backend focus.
+We are looking for a front-end developer.
 
 You will be working on our vulnerabilities monitoring service, connecting user projects, the npm registry and our vulnerabilities database.
 
