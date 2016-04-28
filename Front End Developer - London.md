@@ -51,6 +51,7 @@ We are looking for a full time Front End Developer with JavaScript skills and a 
 ### Interested?
 
 Waiting to hear from you at jobs@snyk.io :)
+
 We are an equal opportunity employer and value diversity at our company.
 
 [Snyk.io](https://snyk.io)
