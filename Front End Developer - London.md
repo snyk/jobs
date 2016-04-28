@@ -45,7 +45,7 @@ We are looking for a full time Front End Developer with JavaScript skills and a 
 - Knowledge of build tools such as Grunt, Gulp, Bower, etc
 - Familiarity with how npm works
 - Secret desire for complex one-liner shell scripts
-- Love of animals, especially dogs! (you will be looking at our dog logo a lot)
+- Fondness of animals, especially dogs! (you will be looking at our dog logo a lot)
 - Unexplained affection for Nandos
 
 ### Interested?
