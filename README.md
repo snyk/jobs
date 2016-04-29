@@ -1,4 +1,4 @@
-# Snyk is recruiting!
+# Snyk is hiring!
 
 We are an early stage startup on a mission to secure the way we build and consume open source software. We have top tier advisors and investors, including the founders of GitHub, Parse, Wix, PubNub and more.
 
