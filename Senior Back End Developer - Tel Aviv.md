@@ -6,7 +6,7 @@ Snyk is on a mission to secure the way people develop and consume open source. W
 
 Developers care a lot about security, but currently have too few options to actually do something about it. We make security an aspect of quality, built into the software from the beginning.
 
-We are focusing on npm and the NodeJS ecosystem. Our tech stack starts with JavaScript and NodeJS. Redis, Postgres AWS/Google Cloud and microservices play their roles in our back-end architecture.
+We have a mature product for npm and the NodeJS ecosystem, now expanding into Ruby, Java and more. Our tech stack starts with JavaScript and NodeJS. Redis, Postgres AWS/Google Cloud and microservices play their roles in our back-end architecture.
 
 Our DevOps stack includes CI/CD with GitHub, Travis, Docker and Kubernetes.
 
