@@ -10,7 +10,7 @@ Company admin
 - Organise and coordinate our team all-hands events and other meetings
 - Help with PR and marketing
 - Ensure new employees have a great start
-- Work with our CFO and handle invoices and expenses
+- Work with our CFO and handle invoices and expenses, liaise with our accountants as may be required each month
 
 Personal admin for our founders
 - Organise travel, coordinate meetings
@@ -20,6 +20,7 @@ We are a small team, and there are tons of things to get involved with outside o
 ### Skills & experience
 
 - Excellent communication skills
+- Proficient in standard software tools (Word, Excel, Google Docs, Google Sheets)
 - Up for working with a distributed team (besides our Tel Aviv office, we also have team members in the US and Canada)
 - Well-organised, good at prioritising and getting things done
 - Good attention to detail, along with good analytical skills and an ability to think strategically 
