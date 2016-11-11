@@ -10,6 +10,8 @@ Company admin
 - Organise and coordinate our team all-hands events and other meetings
 - Help with PR and marketing
 - Ensure new employees have a great start
+
+Finance admin
 - Work with our CFO and handle invoices and expenses, liaise with our accountants as may be required each month
 
 Personal admin for our founders
