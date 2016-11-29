@@ -16,13 +16,14 @@ In this exercise we will focus on on stages 1 and 2 for a package that is alread
 
 Your task is to design and implement a web service that, given a name of an npm package, returns its dependent packages to be used by the consequent stage (3).
 
+You can obtain package data through the npm registry: `https://registry.npmjs.org/<package_name>/<version_or_tag>`. For example: https://registry.npmjs.org/express/latest or https://registry.npmjs.org/async/2.0.1
+
 #### Things to consider
 
-  1. Obtain package data by a GET request such as: https://registry.npmjs.org/package_name/latest?json=true
-  2. Look at the inner "dependencies" object for analysis of first-order dependencies.
-  3. There are currently over 260K packages on npmjs.com, and the number is growing all the time.
-  4. The packages update from time to time, just as their dependencies... What does this mean for you?
-  5. What makes a good web service? API, architecture, data storage, low latency, scalability, monitoring, you name it :)
+  1. Look at the inner "dependencies" object for analysis of first-order dependencies.
+  2. There are currently over 370K packages on npmjs.com, and the number is growing all the time.
+  3. The packages update from time to time, just as their dependencies.
+  4. What makes a good web service? API, architecture, data storage, low latency, scalability, monitoring, you name it :)
 
 #### Implementation
 
