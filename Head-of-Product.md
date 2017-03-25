@@ -20,8 +20,10 @@ Our team numbers 17 amazing people in two large offices in Tel Aviv & London, an
 ## Head of Product - London or Israel
 
 We are looking for a senior head of product, based in one of our main offices in London or Tel Aviv. 
-In this role, you will , to lead all product management activities, set and drive a prioritised backlog, and work closely with customers and engineering to make sure we 
 
+In this role, you will own all product management activities, translating our vision and user feedback into product needs and working closely with engineering to make it a reality. You will also work regularly with customers and prospects, balancing high-touch enterprise customer interactions with understanding the many thousands of users who use your product self serve.
+
+Over time, you'll have the opportunity to build, lead and grow a product team, scaling up as our company hits its next growth stages. You will be a part of the company's leadership, and will influence practically all parts of the company. You will be reporting directly to the CEO.
 
 
 ### Responsibilities
@@ -31,28 +33,12 @@ In this role, you will , to lead all product management activities, set and driv
 - 
 - 
 
-- You will work on our vulnerabilities monitoring service, connecting user projects, the npm registry and our vulnerabilities database.
-- You will evolve our graph DB (Titan) mirror of the npm registry to address our scale and latency requirements.
-- You will design the API for our service as we grow our service to support enterprise-oriented features.
-- You will lead the engineering methodology as it covers software design processes, our use of Gitflow and code testability. 
-- You will practice the ways of subtle and constructive sarcasm working with @rem every single day :grin:
-
 ### Skills & experience
 
 #### Required
-- 4+ years experience of tech leadership in a high scale environment
-- Excellent communication skills and self-initiative
-- Well versed in NodeJS and Express.js
-- Proficient in testing methodologies in JavaScript / NodeJS
-- Deep understanding of relational and graph databases
-- Experience with RESTful APIs design
-- Full command of Git, GitHub and Continuous Integration / Deployment based workflows
-- Language Skills: fluent English
-- Location: London
+
 
 #### Nice-to-have
-- Familiarity with how npm works
-- Fondness of animals, especially dogs! (you will be looking at our dog logo a lot)
 
 ### Interested?
 
