@@ -30,6 +30,7 @@ As Snyk grows, you'll have the opportunity to build, lead and grow a product tea
 - Translate Snyk's vision into a product roadmap, balancing short term and long term goals and iterating constantly 
 - Maintain a prioritised backlog and work closely with engineering on flushing out stories and delivering efficiently
 - Regularly communicate with customers, including both enterprise customers and select online users
+- Use data and analytics to understand our users at scale, beyond the individual conversations
 - Work with Customer Success to understand and satisfy the needs of our online users
 - Work with Marketing to build a product that grows awareness, increases usage and achieves good conversion in a self-serve fashion
 - Balance our enterprise business needs with those of our self-serve online business
