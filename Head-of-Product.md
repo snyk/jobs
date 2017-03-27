@@ -44,7 +44,7 @@ As Snyk grows, you'll have the opportunity to build, lead and grow a product tea
 - Deep technical understanding, which allow for a good understanding of our solution and users
 - Experience building or managing at least one of Security, Developer or DevOps products
 - Excellent written and verbal communication skills in English
-- Willingness to regularly travel between our Israel and London offices (roughly every 6 weeks)
+- Willingness to regularly travel between our Tel Aviv and London offices (roughly every 6 weeks)
 
 #### Nice-to-have
 - Experience in early stage startups
