@@ -2,10 +2,9 @@
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-**Snyk's mission is to help developers use open source code and stay secure.**
-Open Source code, pulled from npm, Maven, RubyGems and others, is often the majority of code in an application, and yet it receives no security attention. 
-Most developers do nothing to track known vulnerabilities in the packages they use, and trust this code as though its their own. 
-This risk is massive today, and is only made worse by growing use of packages and the simplicity offered by package managers. It is further compounded by the fact that unpatched servers, which account for most successful exploits today, are slowly being abstracted away by PaaS and Serverless, making vulnerabilities in open source code packages become the easiest way in. 
+**Snyk's mission is to help developers use open source code and stay secure.** We're looking for a head of product who can work with our excellent team and even better users to translate this vision into reality, make using open source securely the norm, and build a successful commercial business in the process.  
+
+Open Source code, pulled from npm, Maven, RubyGems and others, is often the majority of code in an application, and yet it receives no security attention. Most developers do nothing to track known vulnerabilities in the packages they use, and trust this code as though its their own. This risk is massive today, and is only made worse by growing use of packages and the simplicity offered by package managers. It is further compounded by the fact that unpatched servers, which account for most successful exploits today, are slowly being abstracted away by PaaS and Serverless, making vulnerabilities in open source code packages become the easiest way in. 
 
 **At Snyk we believe this problem can only be fixed by developers and DevOps teams, and built into the way we create software.** 
 We offer a SaaS CI/CD and runtime monitoring product that helps organisations continuously find & fix vulnerable dependencies without slowing down.
