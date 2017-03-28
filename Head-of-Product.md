@@ -1,3 +1,4 @@
+## Snyk Head of Product
 **Snyk's mission is to help developers use open source code and stay secure.** We're looking for a head of product who can work with our excellent team and even better users to translate this vision into reality, make using open source securely the norm, and build a successful commercial business in the process.  
 
 ## About [Snyk](https://snyk.io)
