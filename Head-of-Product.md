@@ -16,7 +16,7 @@ We care about securing the open source world itself as much as as we care about 
 **Lastly, Snyk is a growth oriented venture backed company.** We raised a $3M seed round from US investors in October '15, and received another large infusion from our investors recently, demonstrating their excitement about our progress and potential. 
 Our team numbers 17 amazing people in two large offices in Tel Aviv & London, and a smaller presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
 
-## Head of Product - London or Israel
+## Head of Product - London or Tel Aviv
 
 We are looking for a senior head of product, based in one of our main offices in London or Tel Aviv. 
 
