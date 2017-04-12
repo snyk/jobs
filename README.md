@@ -6,7 +6,7 @@ Snyk is on a mission to secure the way people develop and consume open source. W
 
 Developers care a lot about security, but currently have too few options to actually do something about it. We make security an aspect of quality, built into the software from the beginning.
 
-We run a distributed team between our London and Tel Aviv offices. You are welcome to apply to our single-digit person team. 
+We run a distributed team between our London and Tel Aviv offices. Looking forward to keep growing and doing great stuff together! 
 
 To have a blast with us, it helps if:
 * You like to both start new things and get them done
