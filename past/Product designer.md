@@ -21,9 +21,8 @@ Our team numbers 17 amazing people in two large offices in Tel Aviv & London, an
 We are looking for a senior product designer, based in one of our main offices in London or Tel Aviv. 
 
 In this role, you will own all design aspects of the Snyk product from creating UX mockups and customer user testing to 
-implementing and maintaining our design components, working closely with product and dev.
-You will also work closely with customers, sales and marketing, making sure the design answers the customers real needs and is aligned with Snyks overall positionning and design language.
-You will be reporting directly to the vp of product management.
+implementing and maintaining our design components, working closely with Product and Dev.
+You will also work closely with customers, sales and marketing, making sure the design answers the customers' real needs and is aligned with Snyks overall positioning and design language. You will be reporting directly to the VP of Product Management.
 
 ### Responsibilities
 **Oversee the UX and visual design of Snyk**
