@@ -18,7 +18,7 @@ Our team numbers 17 amazing people in two large offices in Tel Aviv & London, an
 
 ## Product Designer - London or Tel Aviv
 
-*We are looking for a senior product designer, based in one of our main offices in London or Tel Aviv.*
+**We are looking for a senior product designer, based in one of our main offices in London or Tel Aviv.**
 
 In this role, you will own all design aspects of the Snyk product from creating UX mockups and customer user testing to 
 implementing and maintaining our design components, working closely with Product and Dev.
