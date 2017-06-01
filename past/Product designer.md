@@ -26,6 +26,20 @@ You will also work closely with customers, sales and marketing, making sure the 
 You will be reporting directly to the vp of product management.
 
 ### Responsibilities
+**Oversee the UX and visual design of Snyk**
+Snyk isn’t just a CLI tool – it includes our web app, marketing pages, email campaigns, new vulnerability alerts, and our integrations with other products. We’re looking for someone who can craft a seamless user flow – such as from getting a vulnerability alert in Slack, to reading a test report, to opening a Fix PR.
+
+**Organise and run user testing sessions**
+We like to test new features with real users and make improvements before releasing them. You’ll be in charge of making this happen.
+
+**Maintain our living design system**
+You’ll be working closely with our Front-end Developer to help build upon and maintain our Fractal-based living design system, which is used by the whole engineering team.
+
+**Improve our design process**
+We want to improve how we progress from the design discovery phase to shipping a new feature. We will look to you for guidance on how we can progress smoothly between different design and build phases.
+
+**Knowledge sharing**
+We don’t like silos of knowledge (leaving us flailing when someone goes on holiday), so we encourage knowledge sharing – from writing great documentation for our team to demoing how to do something. One of your responsibilities will be to help us collectively improve our design skills – not so that we can become designers, but so that we can keep things moving when you take time off.
 
 ### Skills & experience
 
