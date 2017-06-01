@@ -41,18 +41,31 @@ We want to improve how we progress from the design discovery phase to shipping a
 **Knowledge sharing**
 We don’t like silos of knowledge (leaving us flailing when someone goes on holiday), so we encourage knowledge sharing – from writing great documentation for our team to demoing how to do something. One of your responsibilities will be to help us collectively improve our design skills – not so that we can become designers, but so that we can keep things moving when you take time off.
 
+**Engage with our users**
+While we have a dedicated customer success manager, everyone on the team chips in with customer support queries when they can. Doing this will help you understand our users better, and also identify where the product’s pain points are, so that you can help improve them. 
+
+**Passion**
+Not everyone is used to working on the same product over a long period of time, so it’s important that you feel as passionately as we do about Snyk. It helps that we’re continuously evolving and improving the product over time to keep it fresh, and it’s also a great personal learning opportunity to see what works over time and what doesn’t, and to leave your fingerprint on the product. We hope that you’ll never be bored by it, but that might be difficult if you don’t think open-source security is an exciting area to be working in (it makes us feel like superheroes!).
+
 ### Skills & experience
 
 #### Required
+
+We have a great team of engineers so we don’t expect you to write production code (unless you want to), but it helps if you have at least some knowledge of web development – not just to help in your day-to-day work, but also to understand our users better.
+
 - 3+ years of designing web products.
 - Comfortable writing HTML and CSS to maintain and create new components in our living design system.
 - Experience working on a B2B product aimed at technical users.
 - Experience with maintaining a design system.
-- Experience with leading tools such as Sketch and Axure.
-- Excellent written and verbal communication skills in English
+- Whatever graphics software you use, we expect good layer etiquette – such as naming layers, and using groups and symbols to make it easy for the team to work with.
+- We need someone with a lot of self-initiative who strives for quality, but with a balance of pragmatism.
+- Excellent written and verbal communication skills in English. As you’ll be working with people based in different locations and timezones, you’ll need excellent verbal and written communication skills.
 - Willingness to travel quarterly between our Tel Aviv and London offices 
 
 #### Nice-to-have
+
+You’ll blow our socks off if you have the following, but if not, don’t worry – we’ll give you all the training you’ll need to fill any gaps.
+
 - An understanding of Git (or using GitHub which we use extensively)
 - JavaScript knowledge
 - Experience with using Handlebars or similar for templating (our design system uses Handlebars)
