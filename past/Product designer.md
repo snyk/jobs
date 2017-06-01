@@ -26,15 +26,6 @@ You will also work closely with customers, sales and marketing, making sure the 
 You will be reporting directly to the vp of product management.
 
 ### Responsibilities
-- Translate Snyk's vision into a product roadmap, balancing short term and long term goals and iterating constantly 
-- Maintain a prioritised backlog and work closely with engineering to ensure cross-functional teams deliver the right things
-- Regularly communicate with customers, including both enterprise customers and select online users
-- Use data and analytics to understand our users at scale, beyond the individual conversations
-- Work with Customer Success to understand and satisfy the needs of our online users
-- Work with Marketing to build a product that grows awareness, increases usage and achieves good conversion in a self-serve fashion
-- Balance our enterprise business needs with those of our self-serve online business
-- Personally work with sales to help convert enterprise prospects into customers
-- Own and drive a constantly maturing product process that can scale
 
 ### Skills & experience
 
