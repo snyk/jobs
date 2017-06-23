@@ -2,13 +2,13 @@
 
 **Snyk's mission is to help developers use open source code and stay secure.** We're looking for a head of marketing who can communicate the criticality of this risk and how Snyk can help enterprise buyers, developers and the open source community address it. 
 
-In this role you will be building out our marketing practices, from PR to product marketing to events, as well as tackling the challenge of balancing developer (bottom up), security and enterprise (top down) messaging, harnessing the power of our open source user base while driving enterprise revenue.
+In this role you will be building out our marketing practices, from PR to product marketing to events, as well as taking on the challenge of balancing developer (bottom up), security and enterprise (top down) messaging, harnessing the power of our open source user base while driving enterprise revenue.
 
 Immediate needs include forming and communicating our enterprise oriented messaging across all channels; owning engagements with a PR agency; structuring our demand generation & lead qualification, generated both in traditional manners and from our user base; and maximising the impact of our developer relations activities, which are led by [Tim Kadlec](https://twitter.com/tkadlec).
 
 As Snyk grows, you'll have the opportunity to build, lead and grow a marketing team, scaling up as our company hits its next growth stages. You will join the company's leadership group, and will influence practically all parts of the company. You will report directly to the CEO.
 
-We are looking for candidates based either in London or in SF/Silicon Valley, but will consider other US locations for the right person.
+Our ideal locations are London or SF/Silicon Valley, but we'll consider other US locations for the right person. To apply, please email [jobs@snyk.io](mailto:jobs@snyk.io). Note we are an equal opportunity employer and value diversity at our company.
 
 ### Responsibilities
 - Lead all marketing activities. Initially you'll be the primary person executing as well
@@ -17,7 +17,7 @@ We are looking for candidates based either in London or in SF/Silicon Valley, bu
 - You will work with Customer Success to manage nurturing campaigns, balancing conversion needs with user engagement
 - With the support of product management, you will handle product marketing, including positioning & sales collateral
 - Lead our developer relations team
-- Establish and manage a relationship with a PR agency
+- Establish and maintain a relationship with a PR agency
 - Own SEO and work with engineering to implement it as needed
 - Work with our CTO to define and implement Marketing Ops needs
 - Over time, you will build out our marketing team
@@ -41,13 +41,8 @@ We are looking for candidates based either in London or in SF/Silicon Valley, bu
 - Experience with application security products
 - Familiarity with open source products, ecosystems and communities
 - Good social media skills, either with personal accounts or running a company's social platform
-- Knowledge of or experience with managing a PR agency
+- Knowledge of or experience working with PR agencies
 - Community management experience
-
-### Interested?
-Waiting to hear from you at jobs@snyk.io :)
-
-Note we are an equal opportunity employer and value diversity at our company.
 
 ## About [Snyk](https://snyk.io)
 
