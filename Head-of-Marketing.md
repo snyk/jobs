@@ -1,18 +1,14 @@
-## Snyk Head of Marketing
-**Snyk's mission is to help developers use open source code and stay secure.** We're looking for a head of marketing who can communicate the criticality of this risk and how Snyk can help enterprise buyers, developers and the open source community address it.
+## Snyk Head of Marketing - London or US
+
+**Snyk's mission is to help developers use open source code and stay secure.** We're looking for a head of marketing who can communicate the criticality of this risk and how Snyk can help enterprise buyers, developers and the open source community address it. 
 
 In this role you will be building out our marketing practices, from PR to product marketing to events, as well as tackling the challenge of balancing developer (bottom up), security and enterprise (top down) messaging, harnessing the power of our open source user base while driving enterprise revenue.
-
-## Head of Marketing - London or US
-
-We are searching for a person to build out, execute and lead our marketing activity, ideally based either in our London office or in the valley (will consider other locations for the right person).
-
-In this role, you will own all marketing activities, refining and amplifying our message across developer & security audiences both in and outside the enterprise.
 
 Immediate needs include forming and communicating our enterprise oriented messaging across all channels; owning engagements with a PR agency; structuring our demand generation & lead qualification, generated both in traditional manners and from our user base; and maximising the impact of our developer relations activities, which are led by [Tim Kadlec](https://twitter.com/tkadlec).
 
 As Snyk grows, you'll have the opportunity to build, lead and grow a marketing team, scaling up as our company hits its next growth stages. You will join the company's leadership group, and will influence practically all parts of the company. You will report directly to the CEO.
 
+We are looking for candidates based either in London or in SF/Silicon Valley, but will consider other US locations for the right person.
 
 ### Responsibilities
 - Lead all marketing activities. Initially you'll be the primary person executing as well
