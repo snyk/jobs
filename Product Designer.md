@@ -1,29 +1,10 @@
-## Product Designer at Snyk
-
-**Snyk's mission is to help developers use open source code and stay secure.** We're looking for a full time Product Designer who can work closely with our excellent team and users to translate this vision into an intuitive, effective product that developers love to use.
-
-## About [Snyk](https://snyk.io)
-
-<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
-
-Open Source code, pulled from npm, Maven, RubyGems and others, is often the majority of code in an application, and yet it receives no security attention. Most developers do nothing to track known vulnerabilities in the packages they use, and trust this code as though it's their own. This risk is massive today, and is only made worse by the growing use of packages and the simplicity offered by package managers. It is further compounded by the fact that unpatched servers, which account for most successful exploits today, are slowly being abstracted away by PaaS and Serverless, making vulnerabilities in open source code packages become the easiest way in. 
-
-**At Snyk we believe this problem can only be fixed by developers and DevOps teams, being built into the way we create software.** 
-We offer a SaaS CI/CD and runtime monitoring product that helps organisations continuously find and fix vulnerable dependencies without slowing down development.
-
-**Snyk is a dev tooling company at heart.**
-We care about securing the open source world itself as much as as we care about our enterprise-grade solution that lets large companies consume open source code while controlling risk. We operate at scale, with many thousands of users across both open source and enterprise. Snyk's client software has been downloaded over 1 million times, and we continuously protect over 10,000 open source repositories. We receive regular community contributions (and love!), have [great partners](https://snyk.io/partners) expanding our reach, and have more than 600 badges in GitHub championing us, including top projects like [FreeCodeCamp](https://github.com/FreeCodeCamp/FreeCodeCamp/) and [request](https://github.com/request/request/). 
-
-**Lastly, Snyk is a growth oriented venture backed company.** We raised a $3M seed round from US investors in October '15, and received another large infusion from our investors recently, demonstrating their excitement about our progress and potential. 
-Our team numbers 17 amazing people in two large offices in Tel Aviv & London, and a smaller presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
-
 ## Product Designer - London or Tel Aviv
 
 **We are looking for a senior product designer, based in one of our main offices in London or Tel Aviv.**
 
-In this role, you will own all design aspects of the Snyk product from creating UX mockups and customer user testing to 
-implementing and maintaining our design components, working closely with Product and Dev.
-You will also work closely with customers, sales and marketing, making sure the design answers the customers' real needs and is aligned with Snyks overall positioning and design language. You will be reporting directly to the VP of Product Management.
+We're looking for a full time Product Designer who can work closely with our excellent team and users to translate this vision into an intuitive, effective product that developers love to use.
+In this role, you will own all design aspects of the Snyk product from creating UX mockups and customer user testing to implementing and maintaining our design components, working closely with Product and Dev.
+You will also work closely with customers, sales and marketing, making sure the design answers the customers' real needs and is aligned with Snyk's overall positioning and design language. You will be reporting directly to the VP of Product Management.
 
 ### Responsibilities
 
@@ -49,7 +30,7 @@ We don’t like silos of knowledge (leaving us flailing when someone goes on hol
 
 #### Engage with our users
 
-While we have a dedicated customer success manager, everyone on the team chips in with customer support queries when they can. Doing this will help you understand our users better, and also identify where the product’s pain points are, so that you can help improve them. 
+While we have a dedicated customer success manager, everyone on the team chips in with customer support queries when they can. Doing this will help you understand our users better, and also identify where the product’s pain points are, so that you can help improve them.
 
 #### Passion
 
@@ -68,7 +49,7 @@ We have a great team of engineers so we don’t expect you to write production c
 - Whatever graphics software you use, we expect good layer etiquette – such as naming layers, and using groups and symbols to make it easy for the team to work with.
 - We need someone with a lot of self-initiative who strives for quality, but with a balance of pragmatism.
 - Excellent written and verbal communication skills in English. As you’ll be working with people based in different locations and timezones, you’ll need excellent verbal and written communication skills.
-- Willingness to travel quarterly between our Tel Aviv and London offices 
+- Willingness to travel quarterly between our Tel Aviv and London offices
 
 #### Nice-to-have
 
