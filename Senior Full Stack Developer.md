@@ -1,0 +1,81 @@
+## Senior Full Stack Developer - London or Tel Aviv
+
+<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
+
+We are looking for a full time Senior Full Stack Developer to join our engineering team.
+In this role, you will own the development process of specific features in our SaaS offering. You will engage in problem analysis with our Product team. You will then create a feature plan that outlines the implementation details.  You will be part of an engineering team that works in two-weeks' sprints. You will be building features at a sustainable pace. You will take part in maintaining and supporting our service. You will be reporting to the VP of Engineering.
+
+### Responsibilities
+
+#### Take part in requirements gathering
+
+The right way to solve a problem starts with understanding it. While this is the main responsibility of our Product team, successful features grab the engineering team by their heart. You will be taking an active part in gathering the requirements for new features.
+
+#### Lead feature decomposition
+
+Once the product and UX requirements are clear, it is your job to plan an impactful solution. We believe that done is better than perfect. We iterate quite fast with a completely continuous deployment pipeline. You will create a feature plan by combining the product requirements with the system's architecture. You will then lead the review of this plan with relevant stakeholders, and off we go!
+
+#### Code
+
+Most of the time you will be coding :)
+We run a flat and flexible team that groups around features at the beginning of each two-weeks' sprint. We use our flexibility to gather the right passion and talent around each feature we build. The ad-hoc feature team starts from the feature plan and adjusts it to its strengths, the feature impact and timelines. Keep your eyes on the demo at the end of the sprint, and track user engagement once released!
+
+#### Oncall
+
+Our engineering team shares a weekly oncall rotation (one person at a time). With 8 people on the team currently, you will take part in the rotation for a week every 2+ months. You will start your rotation with an experienced team member as your backup. With time you will feel comfortable flying solo! Before you know it, you will be mentoring others into their oncall duty.
+
+#### Raising our tech bar
+
+We have the benefit of a very new system with an ever-evolving architecture. We never stop asking how we can do things better. Your experience and knowledge will show us where to go next with our own tech stack and dev process.
+
+#### Engage with our users
+
+Everyone on the team chips in with customer support, guided by our customer success manager. Doing so helps us understand our users better, and identify the product’s pain points. The feedback loop into our requirements gathering process is immediate.
+
+### Skills & experience
+
+#### Required
+
+As a senior full stack developer, you are expected
+
+- Over 6 years of experience building SaaS web applications.
+- Over 4 years of experience with JavaScript, either front-end or back-end.
+- Proficient in testing methodologies in JavaScript / NodeJS
+- Full command of Git, GitHub and Continuous Integration / Deployment based workflows
+- Excellent communication skills and self-initiative
+- Language Skills: fluent English
+- Location: London or Tel Aviv
+
+#### Nice-to-have
+
+You’ll blow our socks off if you have the following, but if not, don’t worry – we’ll give you all the training you’ll need to fill any gaps.
+
+- Open source mindset
+- Interest in security
+- Fondness of animals, especially dogs! (you will be seeing our dog logo a lot)
+
+### Interested?
+
+Waiting to hear from you at jobs@snyk.io :)
+
+We are an equal opportunity employer and value diversity at our company.
+
+### About [Snyk](https://snyk.io)
+
+Open Source code, pulled from npm, Maven, RubyGems and others, is often the majority of code in an application, and yet it receives no security attention. Most developers do nothing to track known vulnerabilities in the packages they use, and trust this code as though it's their own. This risk is massive today, and is only made worse by the growing use of packages and the simplicity offered by package managers. It is further compounded by the fact that unpatched servers, which account for most successful exploits today, are slowly being abstracted away by PaaS and Serverless, making vulnerabilities in open source code packages become the easiest way in.
+
+**At Snyk we believe this problem can only be fixed by developers and DevOps teams, being built into the way we create software.**
+We offer a SaaS CI/CD and runtime monitoring product that helps organisations continuously find and fix vulnerable dependencies without slowing down development.
+
+**Snyk is a dev tooling company at heart.**
+We care about securing the open source world itself as much as as we care about our enterprise-grade solution that lets large companies consume open source code while controlling risk. We operate at scale, with many thousands of users across both open source and enterprise. Snyk's client software has been downloaded over 1 million times, and we continuously protect over 10,000 open source repositories. We receive regular community contributions (and love!), have [great partners](https://snyk.io/partners) expanding our reach, and have more than 600 badges in GitHub championing us, including top projects like [FreeCodeCamp](https://github.com/FreeCodeCamp/FreeCodeCamp/) and [request](https://github.com/request/request/).
+
+**Lastly, Snyk is a growth oriented venture backed company.** We raised a $3M seed round from US investors in October '15, and received another large infusion from our investors recently, demonstrating their excitement about our progress and potential.
+Our team numbers 18 amazing people in two large offices in Tel Aviv & London, and a smaller presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
+
+To have a blast with us, it helps if:
+* You like to both start new things and get them done
+* You care about the impact you have on the end user
+* You want to advance the way people develop software (did we say 'open source' yet?)
+* You wish to share the way you do things and not just the end result
+* You appreciate learning and helping others learn
