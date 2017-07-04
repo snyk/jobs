@@ -1,6 +1,8 @@
 ## Snyk Head of Marketing - London or US
 
-**Snyk's mission is to help developers use open source code and stay secure.** We're looking for a head of marketing who can communicate the criticality of this risk and how Snyk can help enterprise buyers, developers and the open source community address it. 
+<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
+
+**Snyk's mission is to help developers use open source code and stay secure.** We're looking for a head of marketing who can communicate the criticality of this risk and how Snyk can help enterprise buyers, developers and the open source community address it.
 
 In this role you will be building out our marketing practices, from PR to product marketing to events, as well as taking on the challenge of balancing developer (bottom up), security and enterprise (top down) messaging, harnessing the power of our open source user base while driving enterprise revenue.
 
@@ -44,9 +46,13 @@ Our ideal locations are London or SF/Silicon Valley, but we'll consider other US
 - Knowledge of or experience working with PR agencies
 - Community management experience
 
-## About [Snyk](https://snyk.io)
+### Interested?
 
-<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
+Waiting to hear from you at jobs@snyk.io :)
+
+We are an equal opportunity employer and value diversity at our company.
+
+### About [Snyk](https://snyk.io)
 
 Using open source code is a major productivity boost, but it's also a significant security risk. Most developers consume this code off the internet blindly, doing nothing to track known vulnerabilities or scrutinise the authors of the packages they use. The tools available to the few who do act are hard to use, do little to help fix the issues they report, and are not sufficiently deep security-wise.
 
