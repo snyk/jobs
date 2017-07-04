@@ -3,13 +3,13 @@
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
 We are looking for a full time Senior Full Stack Developer to join our engineering team.
-In this role, you will own the development process of specific features in our SaaS offering. You'll engage in problem analysis with our Product team, creating feature plans that outline implementation details. You'll be part of an engineering team that works in two-weeks' sprints, building features at a sustainable pace. You will take part in maintaining and supporting our service, and will report to the VP of Engineering.
+In this role, you will own the development process of specific features in our SaaS offering. You'll engage in problem analysis and create feature plans that outline implementation details. You'll code and build features in ad-hoc, cross-functional feature teams. You'll work in a full CI/CD environment, at a sustainable pace in two-weeks' sprints. You'll take part in maintaining and supporting our service. You will report to the VP of Engineering.
 
 ### Responsibilities
 
 #### Take part in requirements gathering
 
-The right way to solve a problem starts with understanding it. While this is the main responsibility of our Product team, successful features grab the engineering team by their heart. You will be taking an active part in gathering the requirements for new features.
+The right way to solve a problem starts with understanding it. Led by our product managers, your contribution to the process is vital to our success. You will be taking an active part in gathering the requirements for new features.
 
 #### Lead feature decomposition
 
@@ -38,9 +38,9 @@ Everyone on the team chips in with customer support, guided by our customer succ
 
 As a senior full stack developer, we expect you to have:
 
-- Over 6 years of experience building SaaS web applications.
-- Over 4 years of experience with JavaScript, either front-end or back-end.
-- Proficiency in testing methodologies in JavaScript / NodeJS
+- Over 6 years of experience delivering SaaS web applications
+- Experience working in cross-functional delivery teams
+- Proficiency in testing
 - Full command of Git, GitHub and Continuous Integration / Deployment based workflows
 - Excellent communication skills and self-initiative
 - Language Skills: fluent English
@@ -50,9 +50,10 @@ As a senior full stack developer, we expect you to have:
 
 You’ll blow our socks off if you have the following, but if not, don’t worry – we’ll give you all the training you’ll need to fill any gaps.
 
+- Substantial experience with JavaScript, either front-end or back-end
+- Familiarity with micro-services architectures
 - Open source mindset
-- Interest in security
-- Fondness of animals, especially dogs! (you will be seeing our dog logo a lot)
+- Interest in security and dev tools
 
 ### Interested?
 
