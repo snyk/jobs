@@ -1,6 +1,6 @@
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-We are looking for a full time Front-End Developer to join our engineering team.
+We are looking for a full time Front-End Developer to join our engineering team in London.
 
 In this role, you will be supporting our lead Front-End Developer. You will be part of an engineering team that works in two-weeks' sprints.
 
