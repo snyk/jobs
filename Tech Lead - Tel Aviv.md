@@ -1,9 +1,9 @@
-## Senior Full Stack Developer - London or Tel Aviv
+## Tech Lead - Tel Aviv
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-We are looking for a full time Senior Full Stack Developer to join our engineering team.
-In this role, you will own the development process of specific features in our SaaS offering. You'll engage in problem analysis and create feature plans that outline implementation details. You'll code and build features in ad-hoc, cross-functional feature teams. You'll work in a full CI/CD environment, at a sustainable pace in two-weeks' sprints. You'll take part in maintaining and supporting our service. You will report to the VP of Engineering.
+We are looking for a full time Tech Lead to join our engineering team in Tel Aviv.
+In this role, you will be responsible for the short term delivery of specific features, AND the long term impact on our tech stack. You'll engage in problem analysis and create feature plans that outline implementation details. You'll code and build features in ad-hoc, cross-functional feature teams. You'll work in a full CI/CD environment, at a sustainable pace in two-weeks' sprints. You'll take part in maintaining and supporting our service. You will report to the VP of Engineering.
 
 ### Responsibilities
 
@@ -26,7 +26,7 @@ Our engineering team shares a weekly on-call rotation (one person at a time). Wi
 
 #### Raising our tech bar
 
-We have the benefit of a very new system with an ever-evolving architecture. We never stop asking how we can do things better. Your experience and knowledge will show us where to go next with our own tech stack and dev process.
+We have the benefit of a very new system with an ever-evolving architecture. We never stop asking how we can do things better. Your experience and knowledge will show us where to go next with our own tech stack and dev process. You will help us gain velocity by leading technical decisions that will make writing code easier as the system grows.
 
 #### Engage with our users
 
@@ -36,7 +36,7 @@ Everyone on the team chips in with customer support, guided by our customer succ
 
 #### Required
 
-As a senior full stack developer, we expect you to have:
+As a tech lead, we expect you to have:
 
 - Over 6 years of experience delivering SaaS web applications
 - Experience working in cross-functional delivery teams
@@ -44,7 +44,7 @@ As a senior full stack developer, we expect you to have:
 - Full command of Git, GitHub and Continuous Integration / Deployment based workflows
 - Excellent communication skills and self-initiative
 - Language Skills: fluent English
-- Location: London or Tel Aviv
+- Location: Tel Aviv
 
 #### Nice-to-have
 
