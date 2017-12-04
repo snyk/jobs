@@ -49,6 +49,6 @@ Our ideal locations are London or SF/Silicon Valley, but we'll consider other US
 
 Waiting to hear from you at [jobs@snyk.io](mailto:jobs@snyk.io). :)
 
-We are an equal opportunity employer and value diversity at our company. Our team numbers around 25 amazing people in two large offices in Tel Aviv & London, and a distributed presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
+Our team numbers around 25 amazing people in two large offices in Tel Aviv & London, and a distributed presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
 
 
