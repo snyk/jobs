@@ -2,10 +2,10 @@
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-**Snyk's mission is to help developers use open source code and stay secure.** Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows. The use of open source is booming, but security is a key concern (https://snyk.io/stateofossecurity/). 
+**Snyk's mission is to help developers use open source code and stay secure.** The use of open source is booming, but [security is a key concern](https://snyk.io/stateofossecurity/). Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows.  
 Snyk is adopted by over 100,000 developers, has multiple enterprise customers (such as Google, New Relic, ASOS and others) and is experiencing rapid growth.
 
-We're looking for a head of marketing who can lead our marketing, build marketing automation that will capitalise on our bottom up interest to support our fast growing enterprise sales team - including lead nurturing, scoring and tracking.
+We're looking for a head of marketing who can lead our marketing, driving an efficient marketing funnel that capitalises on our bottom up interest and supports our fast growing enterprise sales team, including activities such as lead nurturing, lead scoring, sales collateral and more.
 
 In this role you will communicate across all channels the criticality of open source security and how Snyk can help enterprise buyers as well as developers and the open source community address it.
 
@@ -20,7 +20,7 @@ Our ideal locations are London or SF/Silicon Valley, but we'll consider other US
 - With the support of product management, you will handle product marketing, including positioning & sales collateral
 - Own and create enterprise and developer messaging across channels (website, social media, etc) 
 - Establish and maintain a relationship with a PR agency
-- Arrange enterprise events
+- You will manage our participation at enterprise events
 - Work with our CTO to define and implement Marketing Ops needs
 - Over time, you will build out our marketing team
 
@@ -43,7 +43,7 @@ Our ideal locations are London or SF/Silicon Valley, but we'll consider other US
 - Experience with security products
 - Familiarity with open source products, ecosystems and communities
 - Good social media skills, either with personal accounts or running a company's social platform
-- Knowledge of or experience working with PR agencies
+- Experience working with PR agencies
 
 ### Interested?
 
