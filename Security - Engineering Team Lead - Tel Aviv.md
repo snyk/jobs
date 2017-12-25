@@ -27,14 +27,14 @@ Reporting to the Head of Security, your duties and responsibilities include:
 As a lead developer, we expect you to have:
 
 - At least 5 years of experience as a software developer
-- Significant experience with software design, architecture and python
+- Significant experience with software design and architecture
 - Experience working in cross-functional delivery teams
 - Excellent communication skills and self-initiative
 - Language Skills: fluent English
 - Location: Tel Aviv
 
 #### Great-to-have
-
+- Significant experience with python
 - Experience in early stage startups
 - Experience with security products
 - Familiarity with micro-services architectures
