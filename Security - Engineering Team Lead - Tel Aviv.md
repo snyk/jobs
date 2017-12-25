@@ -42,7 +42,7 @@ As a lead developer, we expect you to have:
 
 ### Interested?
 
-Waiting to hear from you at [jobs@snyk.io](mailto:jobs@snyk.io?subject=Security Engineering Team Lead Position: _Name_). :)
+Waiting to hear from you at [jobs@snyk.io](mailto:jobs@snyk.io). :)
 
 We are an equal opportunity employer and value diversity at our company.
 
