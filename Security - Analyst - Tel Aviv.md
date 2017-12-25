@@ -31,7 +31,7 @@ We are looking for a full time Security Analyst to join our security team in Tel
 
 ### Interested?
 
-Waiting to hear from you at [jobs@snyk.io](mailto:jobs@snyk.io?subject=Security Analyst Position: _Name_). :)
+Waiting to hear from you at [jobs@snyk.io](mailto:jobs@snyk.io). :)
 
 We are an equal opportunity employer and value diversity at our company.
 
