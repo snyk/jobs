@@ -8,7 +8,7 @@ Snyk is adopted by over 100,000 developers, has multiple enterprise customers (s
 We are looking for a full time Security Analyst to join our security team in Tel Aviv. In this role, you will use our thread intelligence system to surface vulnerabilities out of open source activities and help developers understand security issues through content you provide. You will report to the Head of Security.
 
 ### Responsibilities
-- Investigating possible vulnerabilities in open source libraries, analyzing their history, impact, writing meaningful content and publishing them to our vulnerability database (link)
+- Investigating possible vulnerabilities in open source libraries, analyzing their history, impact, writing meaningful content and publishing them to [our vulnerability database](https://snyk.io/vuln/)
 - Analyze vulnerability fixes and backporting (applying the fix/patch to older versions)
 - Analyze and extract properties for identifying new known vulnerabilities from public sources (Github activity, Bug tracking systems, Vulnerability databases, etc)
 
