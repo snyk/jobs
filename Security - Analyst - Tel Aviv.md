@@ -10,7 +10,7 @@ We are looking for a full time Security Analyst to join our security team in Tel
 ### Responsibilities
 - Investigating possible vulnerabilities in open source libraries, analyzing their history, impact, writing meaningful content and publishing them to our vulnerability database (link)
 - Analyze vulnerability fixes and backporting (applying the fix/patch to older versions)
-- Analyze and extract properties for identifying new known vulnerabilities from public sources
+- Analyze and extract properties for identifying new known vulnerabilities from public sources (Github activity, Bug tracking systems, Vulnerability databases, etc)
 
 ### Skills & experience
 
@@ -21,13 +21,13 @@ We are looking for a full time Security Analyst to join our security team in Tel
 - An inclusive and team oriented mindset
 
 #### Great-to-have
-- Experience in working in a startup company
+- Experience working in a startup company
 - Experience or knowledge of security flaws
 - Development experience
 - Shell and scripting experience
 - Familiarity with open source products, ecosystems and communities
 - Experience with security products
-- A profound love of dogs
+- A profound love of dogs, cats or gerbils! 
 
 ### Interested?
 
