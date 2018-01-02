@@ -1,4 +1,4 @@
-## Snyk Head of People - London
+## Snyk Head of People Operations - London
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
