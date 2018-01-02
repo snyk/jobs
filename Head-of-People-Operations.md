@@ -17,6 +17,7 @@ As our Head of People Ops, you will report to the CEO and be a member of our man
 - Guide managers in helping employees develop their skills, and in measuring employee performance 
 - Invest in building a diverse team and keeping an inclusive environment 
 - Own various business operations activities, including managing offices, supporting finance, personal admin, etc.
+- Handle benefits and compensation across departments and office locations
 - Manage office admins in one or more remote locations
 
 ### Skills & experience
@@ -29,6 +30,7 @@ As our Head of People Ops, you will report to the CEO and be a member of our man
 - Knowledge and experience working with a distributed team
 - Excellent interpersonal skills, including verbal and written communication
 - Assertive and compelling leader, able to influence other opinionated leaders throughout the organisation
+- A good understanding of compensation abd benefits in different roles, and ideally in different countries 
 - Be a strong and motivated individual contributor, ready to roll up your sleeves and get work done
 
 #### Great-to-have
