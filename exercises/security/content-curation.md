@@ -1,7 +1,7 @@
 ### Exercise
 This exercise is to assess your detective and content curation skills. It is similar to a typical task you would work on at Snyk.
 
-Vulnerabilities are curated by many organizations, CVE being the most popular. Many public vulnerabilities get an ID in the CVE database.
+Vulnerabilities are curated by many organizations, [CVE](https://cve.mitre.org/about/faqs.html#what_is_cve) being the most popular. Many public vulnerabilities get an ID in the CVE database.
 
 You are given a CVE ID and asked to discover all information on it. You do not need prior knowledge of security vulnerabilities, but it may help.
 
