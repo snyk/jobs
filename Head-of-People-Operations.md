@@ -7,7 +7,7 @@ Snyk is adopted by over 100,000 developers, has multiple enterprise customers (s
 
 We're looking for a Head of People Operations, whose primary focus will be finding great talent to join us in London, Tel Aviv and the US, and maintaining our culture and values as we grow. Our team is a close and inclusive family spanning multiple locations, and in this role you will lead us in keeping it so as we double in size in 2018 and continue to grow further. This includes finding the right people to join our team, helping our people grow personally and professionally with our business, keeping the different offices well connected and helping our culture scale.    
 
-As our Head of People Ops, you will report to the CEO and be a member of our management team. Beyond the responsibility for the broader team, you will guide our other executives in being better managers and leaders, help us build a diverse team, manage the office admins in the different locations and run various aspects of business administration. The role is located in our London headquarters. 
+As our Head of People Ops, you will report to the CEO and be a member of our management team. Beyond the responsibility for the broader team, you will guide our other executives in being better managers and leaders, help us build a diverse team, manage the administration of the different offices and run various aspects of business administration. The role is located in our London headquarters. 
 
 ### Responsibilities
 - Lead global recruiting, working with hiring managers to reach, identify and ensure successful onboarding of great people
@@ -43,6 +43,6 @@ As our Head of People Ops, you will report to the CEO and be a member of our man
 
 Waiting to hear from you at [jobs@snyk.io](mailto:jobs@snyk.io). :)
 
-Our team numbers around 25 amazing people in two large offices in Tel Aviv & London, and a distributed presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and office travel.
+Our team numbers around 25 amazing people in two large offices in Tel Aviv & London, and a distributed presence in the US. We are an equal opportunity employer and value diversity at our company. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and office travel.
 
 
