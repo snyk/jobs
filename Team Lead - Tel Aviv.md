@@ -37,7 +37,7 @@ As a team lead, we expect you to have:
 - At least 4 years of experience leading engineering teams
 - At least 6 years of experience delivering SaaS web applications
 - Experience working in cross-functional delivery teams
-- Experience in testing
+- A loosely-held and firm opinion on code testability
 - Full command of Git, GitHub and Continuous Integration / Deployment based workflows
 - Excellent communication skills and self-initiative
 - Language Skills: fluent English
@@ -47,8 +47,9 @@ As a team lead, we expect you to have:
 
 You’ll blow our socks off if you have the following, but if not, don’t worry – we’ll give you all the training you’ll need to fill any gaps.
 
-- Substantial experience with JavaScript, either front-end or back-end
+- Substantial experience with JavaScript / TypeScript, either front-end or back-end
 - Familiarity with micro-services architectures
+- Experience with docker and kubernetes environments
 - Open source mindset
 - Interest in security and dev tools
 
