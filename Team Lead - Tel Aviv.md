@@ -1,6 +1,6 @@
 ## Team Lead - Tel Aviv
 
-**Snyk's mission is to help developers use open source code and stay secure.**The use of open source is booming, but [security is a key concern](https://snyk.io/stateofossecurity/). Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows.  
+**Snyk's mission is to help developers use open source code and stay secure.** The use of open source is booming, but [security is a key concern](https://snyk.io/stateofossecurity/). Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows.  
 Snyk is adopted by over 100,000 developers, has multiple enterprise customers (such as Google, Heroku, New Relic, ASOS and others) and is growing rapidly.
 
 We are looking for a full time Team Lead to join our engineering team in Tel Aviv.
