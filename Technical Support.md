@@ -9,7 +9,7 @@ We're looking for a proactive, curious person to join our Customer Success team 
 
 Over 100,000 developers depend on Snyk to keep their software secure. We have many large organisations on board, including Google, New Relic, and ASOS, and we are growing rapidly.
 
-### Your role
+### Your role
 
 As our first dedicated technical support person, you will be talking directly to active and prospective Snyk customers every day. You’ll join our small Customer Success team, and you’ll work directly alongside our talented engineering team to help solve the most complex issues.
 
