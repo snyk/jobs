@@ -1,48 +1,49 @@
-## Technical Support Engineer - London or Tel Aviv
+## Technical Support - London or Tel Aviv
 
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-**Snyk's mission is to help developers use open source code and stay secure.** The use of open source is booming, but [security is a key concern](https://snyk.io/stateofossecurity/). Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows.  
-Snyk is adopted by over 100,000 developers, has multiple enterprise customers (such as Google, New Relic, ASOS and others) and is experiencing rapid growth.
+We're looking for a proactive, curious person to join our Customer Success team to provide technical support to the developers who use Snyk.
 
-We're looking for a technical support engineer, who will be an integral member of the Snyk Customer Success and Support team. In this role you will be working directly with Snyk customers and prospects and will be critical in maintaining the trust of our customers. You will be helping triage and resolve customer issues, balance online user needs with priority enterprise customers, and collaborate with the Snyk engineering team on the most complex issues.
+**Snyk's mission is to help developers use open source code and stay secure.** The use of open source is booming, but [security is a key concern](https://snyk.io/stateofossecurity/). Our product enables developers and enterprise security to find & fix vulnerable dependencies, without slowing down development. Snyk integrates seamlessly into developer workflows so that security becomes business as usual.
 
-Work hours will be inline with US East Coast 9-5 (2pm - 10pm GMT)
+Over 100,000 developers depend on Snyk to keep their software secure. We have many large organisations on board, including Google, New Relic, and ASOS, and we are growing rapidly.
 
-### Responsibilities
+### Your role
 
-- Answer both technical and business support queries that have been submitted via email, slack or as GitHub issues.
-- Troubleshoot customer Issues - Triage support issues to determine the appropriate next step
-- Open bug tickets in Jira for the engineering team to resolve and follow the issue through to resolution keeping the customer updated.
-- Where possible, and working with the oversight of the Snyk engineering team, implement fixes to resolve customer issues.
-- Produce customer documentation and FAQs to reduce the number of support cases
+As our first dedicated technical support person, you will be talking directly to active and prospective Snyk customers every day. You’ll join our small Customer Success team, and you’ll work directly alongside our talented engineering team to help solve the most complex issues.
 
-### Skills & experience
+**You'll spend your time:**
+- answering our users’ questions through email, chat, and GitHub issues;
+understanding, reproducing and (where you can) resolving the issues that our customers encounter;
+- diving into our codebase to figure out where the issue lies and what a good solution might look like;
+- for tricky issues, filing tickets for our engineering team to resolve;
+- ensuring that every user facing an issue knows exactly when they’ll hear back from us and how we’re doing with solving their problem;
+- listening to our users’ needs, keeping track of recurring requests, and representing their voice in product prioritisation discussions;
+- improving our support processes, so that as we continue to grow we can keep providing prompt and delightful service.
 
-#### Required
+As the main point of contact for our customers, you’ll play a critical role in building and maintaining their trust. You will need to balance the needs of our enterprise customers with those of our self-service online users, so that we can build a sustainable business while also contributing to the open source community.
 
-- At least 2 years working in a technical role such as technical support, QA or software development
-- Programming experience 
-- Good familiarity with GitHub or equivalent (BitBucket, GitLab)
-- Customer focus, you act with the customer in mind and are dedicated to providing superior service. 
-- Problem solving ability, able to triage prioritise and resolve issues.
-- Excellent verbal and written communication skills.
-- Ability to manage multiple priorities, commitments and projects.
-- Self-motivated, directed and passionate about what you do. 
+You’ll have the opportunity to shape what best-in-class technical support looks like, and to help us get there. That could be through writing customer documentation and FAQs, or developing your technical skills by working on tooling for the Customer Success & Support team, for example dashboards or integrations between tools we already use (like Slack, Intercom, and Jira).
 
-#### Nice-to-have
+Over time, we’d love for you to lead the support aspects of our Customer Success team, or to transition into a developer role in the broader company.
 
-You’ll blow our socks off if you have the following, but if not, don’t worry – we’ll give you all the training you’ll need to fill any gaps.
+### You should join us if:
 
-- Experience with JavaScript, either front-end or back-end
-- Familiarity with micro-services architectures
-- Open source mindset
-- Interest in security and dev tools
+- You love helping people, and care deeply about providing an excellent customer experience.
+- You take a logical approach to solving problems and prioritisation.
+- You are a clear communicator, both verbally and in writing, and you enjoy explaining things to others.
+- You’re interested in developing your technical skills: you’re excited about working with others’ code, and you have used GitHub or other source control tools.
+- You have previous experience working closely with technical teams. Perhaps you’ve provided support for a technical product, worked in QA, or are taking your first steps to becoming a software engineer.
+- You are curious: you love to explore new challenges, but know when you need guidance from someone with more domain experience.
+- You’re interested in security or open source software, and you believe in our mission.
+
+We’d love it if you’ve worked with JavaScript before, or have already [tried out our product](https://snyk.io/test), but neither of these are necessary: we’re happy to teach you.
 
 ### Interested?
 
-Waiting to hear from you at jobs@snyk.io :)
+You can apply, or ask us questions about this role, by emailing us at jobs@snyk.io.
 
-We are an equal opportunity employer and value diversity at our company.
+We’re open to part-time work; ideally most of your work hours will be aligned to US East Coast business hours (2pm - 10pm UTC).
 
+We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like this sound of this role, but are not totally sure whether you’re the right person, please apply anyway!
