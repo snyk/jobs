@@ -46,4 +46,4 @@ You can apply, or ask us questions about this role, by emailing us at jobs@snyk.
 
 We’re open to part-time work; ideally most of your work hours will be aligned to US East Coast business hours (2pm - 10pm UTC).
 
-We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like this sound of this role, but are not totally sure whether you’re the right person, please apply anyway!
+We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like the sound of this role, but are not totally sure whether you’re the right person, please apply anyway!
