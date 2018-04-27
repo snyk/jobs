@@ -25,7 +25,7 @@ We expect you to define your strategy and what success looks like, as well as wh
 
 While you'll be hands-on executing when you first join us, over time we expect you to build and lead a world-class marketing function.
 
-### You should apply if:
+### You should apply if:
 * You have led marketing for at least two different products
 * You know how to market to large enterprises
 * You've optimised online self-serve conversion funnels
