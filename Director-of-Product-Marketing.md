@@ -2,51 +2,39 @@
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-**Snyk's mission is to help developers use open source code and stay secure.** Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows. The use of open source is booming, but security is a key concern (https://snyk.io/stateofossecurity/).
+We're looking for a hands-on Product Marketing professional who can lead our marketing and demand generation activities.
 
-Snyk is adopted by over 100,000 developers, has multiple enterprise customers (such as Google, New Relic, ASOS and others) and is experiencing rapid growth.
+**Snyk's mission is to help developers use open source code and stay secure.** Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows. The use of open source is booming, but [security is a key concern](https://snyk.io/stateofossecurity/).
 
-We're looking for a director of product marketing who can lead our product marketing and demand generation activities. 
-Lead our messaging and go to market, as well as arm our sales force with comprehensive collateral. Create an efficient marketing funnel that capitalises on our bottom up interest and supports our fast growing enterprise sales team, including activities such as demand generation, lead nurturing, lead scoring, etc.
+Snyk is adopted by over 120,000 developers, has multiple enterprise customers (such as Google, New Relic, ASOS and others) and is experiencing rapid growth.
 
-In this role you will communicate across all channels the criticality of open source security and how Snyk can help enterprise buyers as well as developers and the open source community address it.
+### Your role
+You'll be our first dedicated marketer and will take ownership of all our marketing activities.
 
+We need to communicate the criticality of open source security, and how Snyk can help address it: both for enterprise buyers, the open source community, and individual developers. Defining this messaging, and building collateral and campaigns to communicate it across all channels, will be a key part of your role.
 
+You'll be responsible for:
+* creating an efficient marketing funnel that capitalises on our bottom-up interest
+* supporting our fast-growing enterprise sales team, including demand generation, lead nurturing, and lead scoring
+* implementing personalised marketing automation to generate sales leads
+* working with the sales team on lead scoring and handoff processes
+* owning our messaging across channels
+* establishing a relationship with a PR agency
+* managing our participation at events
+We expect you to define your strategy and what success looks like, as well as what other activities we should take on in order to market effectively. You will work closely with sales, product management, design and developer advocacy. 
 
-### Responsibilities
-- Lead all product marketing activities. Initially you'll be the primary person executing as well
-- Implement personalized marketing automation that will optimize the journey of our users to provide sales leads
-- Define lead scoring and sales handoff process, iterating with sales to improve
-- With the support of product management, you will handle product marketing, including positioning & sales collateral
-- Own and create enterprise and developer messaging across channels 
-- Establish and maintain a relationship with a PR agency
-- You will manage our participation at enterprise events
-- Over time, you will build out our product marketing team
+While you'll be hands-on executing when you first join us, over time we expect you to build and lead a world-class marketing function.
 
-### Skills & experience
-
-#### Required
-- 8+ years of industry experience
-- 5+ years of marketing experience
-- Great content creation abilities, ranging from enterprise messaging to sales collateral
-- Experience marketing to large enterprises
-- Experience optimising online self-serve conversion funnels
-- Experience with enterprise sales lead management
-- Excellent written and verbal communication skills in English
-- Sufficient technical depth to relate to our technical subject matter and audience
-- An inclusive and team oriented mindset
-
-#### Great-to-have
-- Experience in early stage startups
-- Experience or deep knowledge of the developer and DevOps ecosystem and practices
-- Experience with security products
-- Familiarity with open source products, ecosystems and communities
-- Good social media skills, either with personal accounts or running a company's social platform
+### You should apply if:
+* You have led marketing for at least two different products
+* You know how to market to large enterprises
+* You've optimised online self-serve conversion funnels
+* You're proud of your content creation and communication skills
+* You enjoy working closely with sales and technical product teams
+* You're excited about building out the marketing function at Snyk
+We'd particularly love to hear from you if you're passionate about security or open source, and you have experience of the developer and devops ecosystem, however this isn't required - we're happy to get you up to speed.
 
 ### Interested?
+Please apply [here](https://grnh.se/bku4usty2).
 
-Waiting to hear from you at jobs@snyk.io. :)
-
-Our team numbers around 30 amazing people in our offices in Tel Aviv, London and Boston. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
-
-
+We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like the sound of this role, but are not totally sure whether you’re the right person, we'd encourage you to apply anyway!

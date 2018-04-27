@@ -42,7 +42,7 @@ We’d love it if you’ve worked with JavaScript before, or have already [tried
 
 ### Interested?
 
-You can apply, or ask us questions about this role, by emailing us at jobs@snyk.io.
+Please apply [here](https://grnh.se/uput8fap2).
 
 We’re open to part-time work; ideally most of your work hours will be aligned to US East Coast business hours (2pm - 10pm UTC).
 

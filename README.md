@@ -1,25 +1,45 @@
-## About [Snyk](https://snyk.io)
+## Join the team at [Snyk](https://snyk.io)
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-Open Source code, pulled from npm, Maven, RubyGems and others, is often the majority of code in an application, and yet it receives no security attention. Most developers do nothing to track known vulnerabilities in the packages they use, and trust this code as though it's their own. This risk is massive today, and is only made worse by the growing use of packages and the simplicity offered by package managers. It is further compounded by the fact that unpatched servers, which account for most successful exploits today, are slowly being abstracted away by PaaS and Serverless, making vulnerabilities in open source code packages become the easiest way in.
+Our mission is to help developers use open source code and stay secure.
+The use of open source software is booming: technology is integral to almost every facet of our lives, and almost all software developers rely on open source components.
 
-**At Snyk we believe this problem can only be fixed by developers and DevOps teams, being built into the way we create software.**
-We offer a SaaS CI/CD and runtime monitoring product that helps organisations continuously find and fix vulnerable dependencies without slowing down development.
+We’re so used to using open source that we treat it like our own code - but it’s not. What’s more, anyone can find and exploit vulnerabilities within this code, and most open source maintainers aren’t security experts. With open source software, [security is a key concern](https://snyk.io/stateofossecurity/).
 
-**Snyk is a dev tooling company at heart.**
-We care about securing the open source world itself as much as as we care about our enterprise-grade solution that lets large companies consume open source code while controlling risk. We operate at scale, with many thousands of users across both open source and enterprise. Snyk's client software has been downloaded over 1 million times, and we continuously protect over 10,000 open source repositories. We receive regular community contributions (and love!), have [great partners](https://snyk.io/partners) expanding our reach, and have more than 600 badges in GitHub championing us, including top projects like [FreeCodeCamp](https://github.com/FreeCodeCamp/FreeCodeCamp/) and [request](https://github.com/request/request/).
+### About us
+At Snyk, we believe that the open source world and the community around it is a force for good. We’ve brought together a team of security experts and talented software developers to make it easier for everyone to use open source safely.
 
-**Lastly, Snyk is a growth oriented venture backed company.** We raised a $3M seed round from US investors in October '15, and received another large infusion from our investors recently, demonstrating their excitement about our progress and potential.
-Our team numbers 18 amazing people in two large offices in Tel Aviv & London, and a smaller presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
+Over 120,000 developers already depend on our enterprise-grade solution to find and fix their vulnerable dependencies. We protect more than 100,000 open source projects, and we have many large organisations on board, including Google, New Relic and ASOS.
 
-To have a blast with us, it helps if:
-* You like to both start new things and get them done
-* You care about the impact you have on the end user
-* You want to advance the way people develop software (did we say 'open source' yet?)
-* You wish to share the way you do things and not just the end result
-* You appreciate learning and helping others learn
+We receive regular contributions (and love!) from the community, we have some [fantastic partners](https://snyk.io/partners) amplifying our reach, and well over 1,000 badges championing us in GitHub, including top projects like [FreeCodeCamp](https://github.com/FreeCodeCamp/FreeCodeCamp/) and [request](https://github.com/request/request/).
 
-We are an equal opportunity employer and value diversity at our company.
+We recently [raised $7m](https://techcrunch.com/2018/03/06/snyk-snares-7-million-investment-to-help-developers-secure-open-source-code/) from investors such as Boldstart Ventures, Canaan Partners and Heavybit, demonstrating that they are as excited as we are by Snyk’s progress and potential.
 
-Browse through the job descriptions here and let us know if something catches your eye :)
+We care deeply about the warm, inclusive working environment we've fostered, where we can benefit from the different perspectives within our team. We are collaborative, curious, and respectful - it’s important to us that everyone feels comfortable contributing their ideas and views.
+
+We are around 40 people (and counting!), distributed across three main offices in London, Tel Aviv and Boston, with several people working fully-remote. We’ve made an organisational commitment to building a strong, effective, distributed company: we form teams across multiple offices wherever possible, and we invest in communication so that we can benefit from each others’ perspectives. As well as an always-on webcam so we can see what’s happening in each office, we make heavy use of video calls, Slack, and some inter-office travel.
+
+### What’s next?
+We’re making great progress, and there’s lots more to do:
+
+* open source is growing across every ecosystem, and each package manager works differently: we’re taking on the challenge of building a model that works for all of them and can fully cover the entire codebase
+* we’re building an industry-leading database of vulnerabilities, and we want to use machine learning models and even more targeted research to build it faster and better.
+* we need to make sure our system scales in a robust, maintainable way so that we can make security business as usual for more developers across the world.
+* we want to use our team’s expertise to continue educating and enabling developers to take responsibility for secure development, and to adopt great security practices without slowing down.
+* we need to get our product to the people who need it, and work closely with our users to learn what they need and how we can better support them.
+* we’d love to provide first class security tools across the full end-to-end software development life cycle and seamlessly fit into every developer’s workflow.
+* we want to expand our vulnerability remediation and offer even better monitoring.
+
+Plus the ongoing challenge of building a cohesive distributed company across Tel Aviv, London and Boston!
+
+### You’ll love working with us if:
+* you care about working on something that's genuinely useful
+* you have a positive mindset: you're excited by unfamiliar challenges and learning new things
+* you're collaborative, supportive, and love to help others learn
+* you believe in shared accountability, celebrating success, and learning from failures
+* you want to join a startup and accelerate your career
+* you're excited about working in a diverse, distributed team
+* you want to help more people use open source and stay secure
+
+You can see (and apply for) our current openings [here](https://boards.greenhouse.io/snyk).
