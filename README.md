@@ -1,5 +1,4 @@
-
-## Join the team at [Snyk](https://snyk.io)
+## Join the team at [Snyk](https://snyk.io)
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
