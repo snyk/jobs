@@ -2,7 +2,8 @@
 
 <img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
 
-We are looking for a full time Full Stack Developer to join our engineering team in London.
+We are looking for a curious, capable developer to join our team and help us build our core [product](https://snyk.io/test).
+
 In this role, you will own the development process of specific features in our SaaS offering. You'll engage in problem analysis and create feature plans that outline implementation details. You'll code and build features in ad-hoc, cross-functional feature teams. You'll work in a full CI/CD environment, at a sustainable pace in two-weeks' sprints. You'll take part in maintaining and supporting our service. You will report to the VP of Engineering.
 
 ### Responsibilities
@@ -18,64 +19,27 @@ We run a flat and flexible team that groups around features at the beginning of 
 
 #### On-call
 
-Our engineering team shares a weekly on-call rotation (one person at a time). With 8 people on the team currently, you will take part in the rotation for a week every 2+ months. You will start your rotation with an experienced team member as your backup. With time, you will feel comfortable flying solo! Before you know it, you will be mentoring others into their on-call duty.
+Our engineering team shares a weekly on-call rotation (one person at a time). You will take part in the rotation for a week every 2-3 months, and less often as we continue growing the team. You will start your rotation with an experienced team member as your backup. With time, you will feel comfortable flying solo! Before you know it, you will be mentoring others into their on-call duty.
 
 #### Engage with our users
 
 Everyone on the team chips in with customer support, guided by our customer success manager. Doing so helps us understand our users better, and identify the product’s pain points. The feedback loop into our requirements gathering process is immediate.
 
-### Skills & experience
+### You should apply if:
+* You've previously worked on delivering at least one SaaS web application
+* You believe testing and code quality are important, and prioritise useful code review
+* You like to move quickly and iteratively, and believe that shipping early is best
+* You're comfortable with Git, GitHub and Continuous Integration / Continuous Deployment workflows
+* You communicate proactively, and enjoy working in cross-functional delivery teams
+* You like to start new things, see them through to production, and learn from your mistakes
+* You're interested in security, developer tooling, and open source
 
-#### Required
-
-As a full stack developer, we expect you to have:
-
-- At least 3 years of experience delivering SaaS web applications
-- Experience working in cross-functional delivery teams
-- Experience in testing
-- Full command of Git, GitHub and Continuous Integration / Deployment based workflows
-- Excellent communication skills and self-initiative
-- Language Skills: fluent English
-- Location: London
-
-#### Nice-to-have
-
-You’ll blow our socks off if you have the following, but if not, don’t worry – we’ll give you all the training you’ll need to fill any gaps.
-
-- Substantial experience with JavaScript, either front-end or back-end
-- Familiarity with micro-services architectures
-- Open source mindset
-- Interest in security and dev tools
+We mostly work in JavaScript, both front-end and back-end, and our architecture follows the microservices pattern. We are very happy to help you learn if you don't have previous experience with these - we believe curiosity, communication, and the ability to learn are most important.
 
 ### Interested?
 
-Waiting to hear from you at jobs@snyk.io :)
+Please apply [here](https://grnh.se/bnaclq7e2).
 
-We are an equal opportunity employer and value diversity at our company.
+We're open to part-time applicants for this role - ideally four days a week. You'll be primarily based in our London office, in Shoreditch.
 
----
-
-### About [Snyk](https://snyk.io)
-
-Open Source code, pulled from npm, Maven, RubyGems and others, is often the majority of code in an application, and yet it rarely recieves security attention. Most developers do nothing to track known vulnerabilities in the packages they use, and trust this code as though it's their own. This risk is massive today, and is only made worse by the growing use of packages and the simplicity offered by package managers. It is further compounded by the fact that unpatched servers, which account for most successful exploits today, are slowly being abstracted away by PaaS and Serverless, making vulnerabilities in open source code packages become the easiest way in.
-
-#### At Snyk we believe this problem can only be fixed by developers and DevOps teams, being built into the way we create software.
-
-We offer a SaaS CI/CD and runtime monitoring product that helps organisations continuously find and fix vulnerable dependencies without slowing down development.
-
-#### Snyk is a dev tooling company at heart.
-
-We care about securing the open source world itself as much as as we care about our enterprise-grade solution that lets large companies consume open source code while controlling risk. We operate at scale, with many thousands of users across both open source and enterprise. Snyk's client software has been downloaded over 1 million times, and we continuously protect over 10,000 open source repositories. We receive regular community contributions (and love!), have [great partners](https://snyk.io/partners) expanding our reach, and have more than 600 badges in GitHub championing us, including top projects like [FreeCodeCamp](https://github.com/FreeCodeCamp/FreeCodeCamp/) and [request](https://github.com/request/request/).
-
-#### Lastly, Snyk is a growth oriented venture backed company.
-
-We raised a $3M seed round from US investors in October '15, and received another large infusion from our investors recently, demonstrating their excitement about our progress and potential.
-Our team numbers 18 amazing people in two large offices in Tel Aviv & London, and a smaller presence in the US. We take a lot of care to keep a warm and inclusive environment, and make sure our distributed team gets plenty of face time over video and in trips.
-
-#### To have a blast with us, it helps if:
-
-* You like to both start new things and get them done
-* You care about the impact you have on the end user
-* You want to advance the way people develop software (did we say 'open source' yet?)
-* You wish to share the way you do things and not just the end result
-* You appreciate learning and helping others learn
+We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like the sound of this role, but are not totally sure whether you’re the right person, do apply anyway or reach out to us.
