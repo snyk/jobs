@@ -7,6 +7,8 @@ The use of open source software is booming: technology is integral to almost eve
 
 We’re so used to using open source that we treat it like our own code - but it’s not. What’s more, anyone can find and exploit vulnerabilities within this code, and most open source maintainers aren’t security experts. With open source software, [security is a key concern](https://snyk.io/stateofossecurity/).
 
+You can see (and apply for) our current openings [here](https://boards.greenhouse.io/snyk).
+
 ### About us
 At Snyk, we believe that the open source world and the community around it is a force for good. We’ve brought together a team of security experts and talented software developers to make it easier for everyone to use open source safely.
 
@@ -41,5 +43,3 @@ Plus the ongoing challenge of building a cohesive distributed company across Tel
 * you want to join a startup and accelerate your career
 * you're excited about working in a diverse, distributed team
 * you want to help more people use open source and stay secure
-
-You can see (and apply for) our current openings [here](https://boards.greenhouse.io/snyk).
