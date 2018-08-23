@@ -1,13 +1,13 @@
 ## Join the team at [Snyk](https://snyk.io)
 
-<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
+<img src="https://github.com/snyk/press-kit/blob/master/Logo/Symbol/Color%20background/symbol%20_c%402x.png" width="100" alt="Snyk logo" />
 
 Our mission is to help developers use open source code and stay secure.
 The use of open source software is booming: technology is integral to almost every facet of our lives, and almost all software developers rely on open source components.
 
 We’re so used to using open source that we treat it like our own code - but it’s not. What’s more, anyone can find and exploit vulnerabilities within this code, and most open source maintainers aren’t security experts. With open source software, [security is a key concern](https://snyk.io/stateofossecurity/).
 
-You can see (and apply for) our current openings [here](https://boards.greenhouse.io/snyk).
+You can see (and apply for) our current openings [here](https://snyk.io/jobs).
 
 ### About us
 At Snyk, we believe that the open source world and the community around it is a force for good. We’ve brought together a team of security experts and talented software developers to make it easier for everyone to use open source safely.

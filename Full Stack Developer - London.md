@@ -1,10 +1,10 @@
 ## Full Stack Developer - London
 
-<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
+<img src="https://github.com/snyk/press-kit/blob/master/Logo/Symbol/Color%20background/symbol%20_c%402x.png" width="100" alt="Snyk logo" />
 
 We are looking for a curious, capable developer to join our team and help us build our core [product](https://snyk.io/test).
 
-In this role, you will own the development process of specific features in our SaaS offering. You'll engage in problem analysis and create feature plans that outline implementation details. You'll code and build features in ad-hoc, cross-functional feature teams. You'll work in a full CI/CD environment, at a sustainable pace in two-weeks' sprints. You'll take part in maintaining and supporting our service. You will report to the VP of Engineering.
+In this role, you will own the development process of specific features in our SaaS offering. You'll engage in problem analysis and create feature plans that outline implementation details. You'll code and build features in cross-functional feature teams. You'll work in a full CI/CD environment, at a sustainable pace in two-weeks' sprints. You'll take part in maintaining and supporting our service.
 
 ### Responsibilities
 
@@ -38,8 +38,6 @@ We mostly work in JavaScript, both front-end and back-end, and our architecture 
 
 ### Interested?
 
-Please apply [here](https://grnh.se/bnaclq7e2).
-
-We're open to part-time applicants for this role - ideally four days a week. You'll be primarily based in our London office, in Shoreditch.
+Please apply [here](https://grnh.se/bnaclq7e2). You'll be primarily based in our London office, in Shoreditch, with flexibility to work remotely.
 
 We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like the sound of this role, but are not totally sure whether you’re the right person, do apply anyway or reach out to us.
