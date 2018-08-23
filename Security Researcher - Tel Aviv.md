@@ -1,6 +1,6 @@
 ## Security Researcher - Tel Aviv
 
-<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
+<img src="https://github.com/snyk/press-kit/blob/master/Logo/Symbol/Color%20background/symbol%20_c%402x.png" width="100" alt="Snyk logo" />
 
 We’re looking for a curious, analytical Security Researcher to join us on our mission to make it easy to use open source and stay secure.
 
