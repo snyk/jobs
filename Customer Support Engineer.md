@@ -1,7 +1,7 @@
-## Technical Support - London or Tel Aviv
+## Customer Support Engineer - London or Tel Aviv
 
 
-<img src="https://snyk.io/images/snyk-dog.png" width="100" alt="Snyk logo" />
+<img src="https://github.com/snyk/press-kit/blob/master/Logo/Symbol/Color%20background/symbol%20_c%402x.png" width="100" alt="Snyk logo" />
 
 We're looking for a proactive, curious person to join our Customer Success team to provide technical support to the developers who use Snyk.
 
@@ -11,12 +11,12 @@ Over 100,000 developers depend on Snyk to keep their software secure. We have ma
 
 ### Your role
 
-As our first dedicated technical support person, you will be talking directly to active and prospective Snyk customers every day. You’ll join our small Customer Success team, and you’ll work directly alongside our talented engineering team to help solve the most complex issues.
+You'll talk to active and prospective Snyk customers every day. You’ll join our small Customer Success team, and you’ll work directly alongside our talented engineering team to help solve the most complex issues.
 
 **You'll spend your time:**
 - answering our users’ questions through email, chat, and GitHub issues;
-understanding, reproducing and (where you can) resolving the issues that our customers encounter;
-- diving into our codebase to figure out where the issue lies and what a good solution might look like;
+- understanding, reproducing and (where you can) resolving the issues that our customers encounter;
+- diving into our logs and our codebase to figure out where the issue lies and what a good solution might look like;
 - for tricky issues, filing tickets for our engineering team to resolve;
 - ensuring that every user facing an issue knows exactly when they’ll hear back from us and how we’re doing with solving their problem;
 - listening to our users’ needs, keeping track of recurring requests, and representing their voice in product prioritisation discussions;
@@ -24,7 +24,7 @@ understanding, reproducing and (where you can) resolving the issues that our cus
 
 As the main point of contact for our customers, you’ll play a critical role in building and maintaining their trust. You will need to balance the needs of our enterprise customers with those of our self-service online users, so that we can build a sustainable business while also contributing to the open source community.
 
-You’ll have the opportunity to shape what best-in-class technical support looks like, and to help us get there. That could be through writing customer documentation and FAQs, or developing your technical skills by working on tooling for the Customer Success & Support team, for example dashboards or integrations between tools we already use (like Slack, Intercom, and Jira).
+You’ll have the opportunity to shape what best-in-class technical support looks like, and to help us get there. That could be through writing customer documentation and FAQs, or developing your technical skills by working on tooling for the Customer Success & Support team, for example dashboards or integrations between tools we already use (like Slack, Hubspot, and Jira).
 
 Over time, we’d love for you to lead the support aspects of our Customer Success team, or to transition into a developer role in the broader company.
 
@@ -43,7 +43,5 @@ We’d love it if you’ve worked with JavaScript before, or have already [tried
 ### Interested?
 
 Please apply [here](https://grnh.se/uput8fap2).
-
-We’re open to part-time work; ideally most of your work hours will be aligned to US East Coast business hours (2pm - 10pm UTC).
 
 We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like the sound of this role, but are not totally sure whether you’re the right person, please apply anyway!
