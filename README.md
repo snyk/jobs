@@ -20,7 +20,7 @@ We recently [raised $7m](https://techcrunch.com/2018/03/06/snyk-snares-7-million
 
 We care deeply about the warm, inclusive working environment we've fostered, where we can benefit from the different perspectives within our team. We are collaborative, curious, and respectful - it’s important to us that everyone feels comfortable contributing their ideas and views.
 
-We are around 40 people (and counting!), distributed across three main offices in London, Tel Aviv and Boston, with several people working fully-remote. We’ve made an organisational commitment to building a strong, effective, distributed company: we form teams across multiple offices wherever possible, and we invest in communication so that we can benefit from each others’ perspectives. As well as an always-on webcam so we can see what’s happening in each office, we make heavy use of video calls, Slack, and some inter-office travel.
+We are around 50 people (and counting!), distributed across three main offices in London, Tel Aviv and Boston, with several people working fully-remote. We’ve made an organisational commitment to building a strong, effective, distributed company: we form teams across multiple offices wherever possible, and we invest in communication so that we can benefit from each others’ perspectives. As well as an always-on webcam so we can see what’s happening in each office, we make heavy use of video calls, Slack, and some inter-office travel.
 
 ### What’s next?
 We’re making great progress, and there’s lots more to do:
