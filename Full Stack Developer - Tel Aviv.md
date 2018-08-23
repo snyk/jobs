@@ -40,6 +40,6 @@ We mostly work in JavaScript, both front-end and back-end, and our architecture 
 
 Please apply [here](https://grnh.se/w80tuv1y2).
 
-We're open to part-time applicants for this role - ideally four days a week. You'll be primarily based in our Tel Aviv office, on Rothschild.
+You'll be primarily based in our Tel Aviv office, on Rothschild.
 
 We value diversity at Snyk, and would particularly encourage applications from those who are traditionally underrepresented in tech. If you like the sound of this role, but are not totally sure whether you’re the right person, do apply anyway or reach out to us.
