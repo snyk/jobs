@@ -1,6 +1,6 @@
 ## Full Stack Developer - Tel Aviv
 
-<img src="https://github.com/snyk/press-kit/blob/master/Logo/Symbol/Color%20background/symbol%20_c%402x.png" width="100" alt="Snyk logo" />
+<img src="https://res.cloudinary.com/snyk/image/upload/v1537345894/press-kit/brand/logo-black.png" width="100" alt="Snyk logo" />
 
 We are looking for a curious, capable developer to join our team and help us build our core [product](https://snyk.io/test).
 
