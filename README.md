@@ -1,6 +1,6 @@
 ## Join the team at [Snyk](https://snyk.io)
 
-<img src="https://github.com/snyk/press-kit/blob/master/Logo/Symbol/Color%20background/symbol%20_c%402x.png" width="100" alt="Snyk logo" />
+<img src="https://res.cloudinary.com/snyk/image/upload/v1537345894/press-kit/brand/logo-black.png" width="100" alt="Snyk logo" />
 
 Our mission is to help developers use open source code and stay secure.
 The use of open source software is booming: technology is integral to almost every facet of our lives, and almost all software developers rely on open source components.
