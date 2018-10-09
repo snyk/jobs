@@ -1,0 +1,28 @@
+{
+  "name": "npm-exercise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "npm run test:system",
+    "test:system": "tap test/system -Rspec",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-hbs": "^1.0.4",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "marked": "^0.5.1",
+    "morgan": "~1.9.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "nodemon": "^1.18.4",
+    "tap": "^12.0.1"
+  }
+}
