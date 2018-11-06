@@ -21,7 +21,7 @@ You can obtain package data through the npm registry: `https://registry.npmjs.or
 #### Things to consider
 
   1. Look at the inner "dependencies" object for analysis of first-order dependencies.
-  2. There are currently over 370K packages on npmjs.com, and the number is growing all the time.
+  2. There are currently over 800K packages on npmjs.com, and the number is growing all the time.
   3. The packages update from time to time, just as their dependencies.
   4. What makes a good web service? API, architecture, data storage, low latency, scalability, monitoring, you name it :)
 
