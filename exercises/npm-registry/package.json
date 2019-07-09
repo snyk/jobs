@@ -16,7 +16,7 @@
     "express-hbs": "^1.0.4",
     "hbs": "~4.0.1",
     "http-errors": "~1.6.2",
-    "marked": "^0.5.1",
+    "marked": "^0.7.0",
     "morgan": "~1.9.0",
     "request-promise-native": "^1.0.5"
   },
