@@ -1,0 +1,25 @@
+{
+  "name": "tag-describer-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "@types/semver": "^6.0.1",
+    "jest": "^24.9.0",
+    "semver": "^6.3.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest .",
+    "test:watch": "jest --watch ."
+  },
+  "author": "snyk.io",
+  "private": true
+}
