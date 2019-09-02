@@ -2,7 +2,7 @@
 
 const args = require('minimist')(process.argv.slice(2));
 const chalk = require('chalk');
-const dockerMetadata = require('../lib');
+const lib = require('../lib');
 
 module.exports = { validateDigestArgs, getDigest };
 
@@ -15,7 +15,7 @@ if (args.help || args.h) {
 
 async function getDigest(repo, tag) {
   try {
-    const digest = await dockerMetadata.getDockerContentDigest(repo, tag);
+    const digest = await lib.getDockerContentDigest(repo, tag);
     console.log(chalk.green(`Fetched digest: ${digest} for ${repo}:${tag}`));
     return digest;
   } catch (error) {

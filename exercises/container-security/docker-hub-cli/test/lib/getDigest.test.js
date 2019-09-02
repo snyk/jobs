@@ -1,7 +1,7 @@
-const { validateDigestArgs, getDigest } = require('../cli/index');
-const { getDockerContentDigest } = require('../lib/index.js');
+const { validateDigestArgs, getDigest } = require('../../cli/index');
+const { getDockerContentDigest } = require('../../lib/index.js');
 
-describe('validate args', () => {
+describe('test validateDigestArgs', () => {
   test('validate valid args', () => {
     const args = { repo: 'alpine', tag: '3' };
     expect(validateDigestArgs(args)).toBeTruthy();
@@ -16,7 +16,7 @@ describe('validate args', () => {
   });
 });
 
-jest.mock('../lib/index.js', () => ({
+jest.mock('../../lib/index.js', () => ({
   getDockerContentDigest: jest.fn()
 }))
 
@@ -44,4 +44,6 @@ describe('test getDigest', () => {
     await !expect(getDigest(args.repo, args.tag)).rejects.toThrow();
   });
 });
+
+
 
