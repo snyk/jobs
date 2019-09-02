@@ -14,6 +14,7 @@
     "request-promise-native": "^1.0.7"
   },
   "devDependencies": {
+    "eslint-plugin-jest": "^22.16.0",
     "jest": "^24.9.0"
   }
 }

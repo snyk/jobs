@@ -10,6 +10,7 @@
     "node": true,
     "es6": true
   },
+  "plugins": ["jest"],
   "rules": {
     "array-bracket-spacing": ["error", "always"],
     "block-scoped-var": "error",
