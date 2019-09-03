@@ -1,0 +1,20 @@
+{
+  "name": "docker-hub-cli",
+  "version": "1.0.0",
+  "description": "container security exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Snyk",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "minimist": "^1.2.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest": "^22.16.0",
+    "jest": "^24.9.0"
+  }
+}
