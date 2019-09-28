@@ -14,7 +14,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "express-hbs": "^1.0.4",
-    "hbs": "~4.0.1",
+    "hbs": "~4.0.5",
     "http-errors": "~1.6.2",
     "marked": "^0.5.1",
     "morgan": "~1.9.0",
