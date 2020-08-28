@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'
+    "target": "es5",
+
+    // Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'
+    "module": "commonjs",
+
+    // Enable all strict type-checking options
+    "strict": true,
+
+    // Relax this to make it easier for newcomers to TS to hack on
+    "noImplicitAny": false,
+
+    // Directory to write compiled JS to
+    "outDir": "dist",
+
+    // Build source maps for easier debugging
+    "sourceMap": true
+  },
+  "include": ["src"]
+}
