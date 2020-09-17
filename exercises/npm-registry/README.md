@@ -13,7 +13,7 @@ package.
 1. Update the `/package` endpoint, so that it returns all of the transitive
    dependencies for a package, not only the first order dependencies
 
-2. Present these dependencies in a tree view
+2. Present these dependencies in a tree view that can be viewed from a Web Browser (you can use any technologies you find suitable)
 
 ## Getting Started
 
@@ -58,6 +58,6 @@ Good luck, and enjoy!
 - The packages update from time to time, just as their dependencies do.
 
 - What makes a good web service? API, performance, data storage, low latency,
-  scalability, monitoring, you name it :)
+  scalability, monitoring, a great web interface, you name it :)
 
 - Consider the quality and structure of your codebase; is it maintainable?
