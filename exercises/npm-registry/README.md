@@ -15,9 +15,13 @@ package.
 
 2. Present these dependencies in a tree view that can be viewed from a Web Browser (you can use any technologies you find suitable)
 
+## Prerequisites
+
+* [Node v12 LTS](https://nodejs.org/download/release/latest-v12.x/)
+
 ## Getting Started
 
-To install dependencies and start the server in dev mode:
+To install dependencies and start the server in development mode:
 
 ```sh
 npm ci
