@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "main": "dist/main.js",
+  "engines": {
+    "node": "^12.0.0"
+  },
   "scripts": {
     "start": "tsc-watch --onSuccess 'node -r source-map-support/register .'",
     "test": "jest",
