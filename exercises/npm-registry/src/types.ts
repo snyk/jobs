@@ -39,3 +39,16 @@ export interface NPMPackage {
     };
   };
 }
+
+
+export interface Dependency {
+/**
+ * An object representing a dependency 
+ * with its attributes names and child dependencies.
+ *
+ * @type {Object.<string, string | Array.<Dependency>}
+ */
+  name: string,
+  version: string,
+  dependencies?: [Dependency],
+}
