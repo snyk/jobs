@@ -35,10 +35,38 @@ describe('/package/:name/:version endpoint', () => {
       `http://localhost:${port}/package/${packageName}/${packageVersion}`,
     ).json();
 
-    expect(res.dependencies).toEqual({
-      'loose-envify': '^1.1.0',
-      'object-assign': '^4.1.1',
-      'prop-types': '^15.6.2',
+    expect(res).toEqual({
+      "name": "react",
+      "version": "16.13.0",
+      "dependencies": [{
+        "name": "loose-envify",
+        "version": "1.1.0",
+        "dependencies": [{
+          "name": "js-tokens",
+          "version": "1.0.1",
+          "dependencies": []
+        }]
+      }, {
+        "name": "object-assign",
+        "version": "4.1.1",
+        "dependencies": []
+      }, {
+        "name": "prop-types",
+        "version": "15.6.2",
+        "dependencies": [{
+          "name": "loose-envify",
+          "version": "1.3.1",
+          "dependencies": [{
+            "name": "js-tokens",
+            "version": "3.0.0",
+            "dependencies": []
+          }]
+        }, {
+          "name": "object-assign",
+          "version": "4.1.1",
+          "dependencies": []
+        }]
+      }]
     });
   });
 });
