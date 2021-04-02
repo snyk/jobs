@@ -8,11 +8,13 @@ I've not done much TS/js before, so stumbled through the frameworks & syntax a b
     * Of course keep compatibility! Can add a new field to the response which isn't (normally) a breaking change, and aim for a minimal hit to perf so current consumers aren't affected.
 1. How to style the API w/the new field? A key/val pair of package/deps?
     * Decided on a single list, as the package name is in the object's "name" field and can filter by that if needed, but appreciate a key/val pair would be a bit easier to get transitive deps for a single dependency.
+1. UI?
+    * Not done UI for years. Simple React inline was easy to get going but would have been learning from scratch for this. Kept it simple with jQuery (which is still ugly and hand built HTML :see_no_evil:).
 
 ### todo
 
 [x] naive inline transitive impl
-[ ] display response in a webpage
+[x] display response in a webpage
 [ ] get version based on semver (list all versions, then filter)
 [ ] productionise:
     [ ] metrics/logging/tracing, or at least mention where it'd be and my almost ignorance of javascript promises/async

@@ -1,9 +1,43 @@
 <html>
     <head>
         <title>NPM Package Details</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function() {
+                $('#display').click(function() {
+                    $.getJSON('/package/' + $('#package').val() + '/' + $('#version').val(),
+                        function (data) {
+                            $('#npm_package_details').html('<ol>' + buildPackage(data) + '</ol>');
+                        }
+                    )
+                });
+            });
+
+            function buildPackage(package) {
+                var deps = '';
+                $.each(package.dependencies, function(dep, ver) {
+                    deps += '<i>' + dep + '</i>@' + ver + ', ';
+                });
+
+                if (deps == '') {
+                    deps = 'None';
+                }
+
+                var transitiveDeps = '';
+                $.each(package.transitiveDeps, function(index, dep) {
+                    transitiveDeps += buildPackage(dep);
+                });
+
+                return '<li><b>' + package.name + '</b>@' + package.version + ' -- Deps: ' + deps + '<ol>' + transitiveDeps + '</ol></li>';
+            }
+        </script>
     </head>
 
     <body>
-        Hello world!
+        Package: <input type="text" value="react" id="package" /><br />
+        Version: <input type="text" value="16.13.0" id="version" /><br />
+        <div id="display">Click to display</div>
+
+        <div id="npm_package_details" />
     </body>
 </html>
