@@ -9,14 +9,25 @@ export const getPackage: RequestHandler = async function (req, res, next) {
   const { name, version } = req.params;
 
   try {
-    const npmPackage: NPMPackage = await got(
-      `https://registry.npmjs.org/${name}`,
-    ).json();
-
-    const dependencies = npmPackage.versions[version].dependencies;
-
-    return res.status(200).json({ name, version, dependencies });
+    const body = await getPackageDetails({[name]: version});
+    return res.status(200).json(body[0]);
   } catch (error) {
     return next(error);
   }
 };
+
+async function getPackageDetails(deps: {[packageName: string]: string}): Promise<any[]> {
+  return Promise.all(Object.keys(deps)
+    .map(async name => {
+      const version = deps[name].replace('^', '');
+
+      const npmPackage: NPMPackage = await got(
+        `https://registry.npmjs.org/${name}`,
+      ).json();
+
+      const dependencies = npmPackage.versions[version].dependencies;
+      const transitiveDeps = dependencies ? await getPackageDetails(dependencies) : undefined;
+
+      return { name, version, dependencies, transitiveDeps };
+    }));
+}

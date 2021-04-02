@@ -25,6 +25,7 @@ describe('/package/:name/:version endpoint', () => {
     ).json();
 
     expect(res.name).toEqual(packageName);
+    expect(res.version).toEqual(packageVersion);
   });
 
   it('returns dependencies', async () => {
@@ -40,5 +41,38 @@ describe('/package/:name/:version endpoint', () => {
       'object-assign': '^4.1.1',
       'prop-types': '^15.6.2',
     });
+  });
+
+  it('returns no deep dependencies if no dependencies', async () => {
+    const packageName = 'js-tokens';
+    const packageVersion = '1.0.1';
+
+    const res: any = await got(
+      `http://localhost:${port}/package/${packageName}/${packageVersion}`,
+    ).json();
+
+    expect(res.transitiveDeps).toBeUndefined();
+  });
+
+  it('returns deep dependencies', async () => {
+    const packageName = 'react';
+    const packageVersion = '16.13.0';
+
+    const res: any = await got(
+      `http://localhost:${port}/package/${packageName}/${packageVersion}`,
+    ).json();
+
+    expect(res.transitiveDeps.length).toEqual(3);
+
+    // Full check first transitive dependency only
+    expect(res.transitiveDeps[0].name).toEqual('loose-envify');
+    expect(res.transitiveDeps[0].version).toEqual('1.1.0');
+    expect(res.transitiveDeps[0].dependencies).toEqual({ 'js-tokens': '^1.0.1' });
+    expect(res.transitiveDeps[0].transitiveDeps.length).toEqual(1);
+
+    expect(res.transitiveDeps[0].transitiveDeps[0].name).toEqual('js-tokens');
+    expect(res.transitiveDeps[0].transitiveDeps[0].version).toEqual('1.0.1');
+    expect(res.transitiveDeps[0].transitiveDeps[0].dependencies).toBeUndefined();
+    expect(res.transitiveDeps[0].transitiveDeps[0].transitiveDeps).toBeUndefined();
   });
 });
