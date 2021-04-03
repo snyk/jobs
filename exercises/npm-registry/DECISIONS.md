@@ -10,17 +10,19 @@ I've not done much TS/js before, so stumbled through the frameworks & syntax a b
     * Decided on a single list, as the package name is in the object's "name" field and can filter by that if needed, but appreciate a key/val pair would be a bit easier to get transitive deps for a single dependency.
 1. UI?
     * Not done UI for years. Simple React inline was easy to get going but would have been learning from scratch for this. Kept it simple with jQuery (which is still ugly and hand built HTML :see_no_evil:).
+1. Failure modes?
+    * I'd say if anything in the transitive dependency graph fails (parsing, loading from NPM remotely or locally, etc) that can be dropped from the response and still return the rest as a partial failure mode.
 
 ### todo
 
 [x] naive inline transitive impl
 [x] display response in a webpage
 [x] get version based on semver (list all versions, then filter)
-[ ] productionise:
-    [ ] metrics/logging/tracing, or at least mention where it'd be and my almost ignorance of javascript promises/async
-[ ] optimise:
-    [ ] app: cache versions calls, and specific versions (via a Map)
-    [ ] tests: stub calls to npm, nock for local server, or reduce number of calls in tests by combining/moving-to-beforeAll?
-[ ] in-memory db to externalise npm cache (vs an http cache like varnish)
-[ ] update db based on npm http cache response headers
+[x] productionise:
+    [x] metrics/logging/tracing, or at least mention where it'd be and my almost ignorance of javascript promises/async
+[x] optimise:
+    [x] app: cache versions calls, and specific versions (via a Map)
+    [x] tests: stub calls to npm, nock for local server, or reduce number of calls in tests by combining/moving-to-beforeAll?
+[x] in-memory db to externalise npm cache (vs an http cache like varnish)
+[x] update db based on npm http cache response headers
 [ ] support tag queries in api (eg 'latest', via the 'dist-tags' npm field)
