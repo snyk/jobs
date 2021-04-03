@@ -1,5 +1,6 @@
 import { RequestHandler } from 'express';
 import got from 'got';
+import { getLatestSemVer, isSemVerFilter } from './semver';
 import { NPMPackage } from './types';
 
 /**
@@ -19,11 +20,17 @@ export const getPackage: RequestHandler = async function (req, res, next) {
 async function getPackageDetails(deps: {[packageName: string]: string}): Promise<any[]> {
   return Promise.all(Object.keys(deps)
     .map(async name => {
-      const version = deps[name].replace('^', '');
-
       const npmPackage: NPMPackage = await got(
         `https://registry.npmjs.org/${name}`,
       ).json();
+
+      const requestedVersion = deps[name];
+
+      let version = requestedVersion;
+      if (isSemVerFilter(requestedVersion)) {
+        const allVersions = Object.keys(npmPackage.versions);
+        version = getLatestSemVer(requestedVersion, allVersions);
+      }
 
       const dependencies = npmPackage.versions[version].dependencies;
       const transitiveDeps = dependencies ? await getPackageDetails(dependencies) : undefined;

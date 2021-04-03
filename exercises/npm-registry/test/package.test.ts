@@ -66,12 +66,12 @@ describe('/package/:name/:version endpoint', () => {
 
     // Full check first transitive dependency only
     expect(res.transitiveDeps[0].name).toEqual('loose-envify');
-    expect(res.transitiveDeps[0].version).toEqual('1.1.0');
-    expect(res.transitiveDeps[0].dependencies).toEqual({ 'js-tokens': '^1.0.1' });
+    expect(res.transitiveDeps[0].version).toEqual('1.4.0');
+    expect(res.transitiveDeps[0].dependencies).toEqual({ 'js-tokens': '^3.0.0 || ^4.0.0' });
     expect(res.transitiveDeps[0].transitiveDeps.length).toEqual(1);
 
     expect(res.transitiveDeps[0].transitiveDeps[0].name).toEqual('js-tokens');
-    expect(res.transitiveDeps[0].transitiveDeps[0].version).toEqual('1.0.1');
+    expect(res.transitiveDeps[0].transitiveDeps[0].version).toEqual('3.0.2');
     expect(res.transitiveDeps[0].transitiveDeps[0].dependencies).toBeUndefined();
     expect(res.transitiveDeps[0].transitiveDeps[0].transitiveDeps).toBeUndefined();
   });

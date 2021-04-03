@@ -15,7 +15,7 @@ I've not done much TS/js before, so stumbled through the frameworks & syntax a b
 
 [x] naive inline transitive impl
 [x] display response in a webpage
-[ ] get version based on semver (list all versions, then filter)
+[x] get version based on semver (list all versions, then filter)
 [ ] productionise:
     [ ] metrics/logging/tracing, or at least mention where it'd be and my almost ignorance of javascript promises/async
 [ ] optimise:
