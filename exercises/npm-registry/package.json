@@ -12,7 +12,7 @@
     "lint": "eslint --cache '{src,test}/**/*.ts'"
   },
   "dependencies": {
-    "@types/express": "^4.17.11",
+    "@types/express": "^4.17.12",
     "@types/node": "^14.14.22",
     "express": "^4.17.1",
     "get-port": "^5.1.1",
