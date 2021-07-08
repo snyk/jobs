@@ -1,0 +1,133 @@
+/**
+ * Shake (Horizontal)
+ * ----------------------------------------
+ * Shake left-to-right.
+ */
+.shake-horizontal {
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+
+/**
+ * Shake (Horizontal) "Subtle"
+ * ----------------------------------------
+ * Shake left-to-right but less aggressive.
+ */
+.shake-horizontal-subtle {
+  animation: shake-horizontal-subtle 0.8s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@keyframes shake-horizontal-subtle {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-4px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  90% {
+    transform: translateX(-2px);
+  }
+}
+
+/**
+ * Shake (Vertibal)
+ * ----------------------------------------
+ * Shake up-and-down.
+ */
+.shake-vertical {
+  animation: shake-vertical 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@keyframes shake-vertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(8px);
+  }
+  80% {
+    transform: translateY(6.4px);
+  }
+  90% {
+    transform: translateY(-6.4px);
+  }
+}
+
+/**
+ * Shake (Vertical) "Subtle"
+ * ----------------------------------------
+ * Shake up-and-down but less aggressive.
+ */
+.shake-vertical-subtle {
+  animation: shake-vertical-subtle 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    both;
+}
+
+@keyframes shake-vertical-subtle {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-2px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(2px);
+  }
+  80% {
+    transform: translateY(1.6px);
+  }
+  90% {
+    transform: translateY(-1.6px);
+  }
+}

@@ -1,0 +1,47 @@
+$fontDisplayFallback: fallback !default;
+$fontDisplayOptional: optional !default;
+
+@font-face {
+  font-display: $fontDisplayFallback;
+  font-family: "prenton";
+  src: url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-regular.woff2") format("woff2"),
+    url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: $fontDisplayOptional;
+  font-family: "prenton";
+  src: url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-italic.woff2") format("woff2"),
+    url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: $fontDisplayFallback;
+  font-family: "prenton";
+  src: url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-medium.woff2") format("woff2"),
+    url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-display: $fontDisplayOptional;
+  font-family: "prenton";
+  src: url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-medium-italic.woff2") format("woff2"),
+    url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-medium-italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-display: $fontDisplayFallback;
+  font-family: "prenton";
+  src: url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-bold.woff2") format("woff2"),
+    url("https://static.snyk.io/prod/static-assets/style/build/fonts/prenton-bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}

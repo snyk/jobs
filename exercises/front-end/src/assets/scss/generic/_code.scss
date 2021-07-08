@@ -1,0 +1,16 @@
+code {
+  background-color: rgba(color(base, body), 0.1);
+  border-radius: global(border-radius, half);
+  font-family: "Consolas", "Monaco", "Andale Mono", "Ubuntu Mono", monospace;
+  font-feature-settings: 'pnum';
+  font-variant: proportional-nums;
+  font-size: 90%;
+  padding: space(xxs) * 0.5 space(xxs);
+  white-space: pre;
+}
+
+p {
+  code {
+    white-space: pre-wrap;
+  }
+}

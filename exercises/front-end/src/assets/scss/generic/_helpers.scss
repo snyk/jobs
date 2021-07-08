@@ -1,0 +1,18 @@
+.highlight {
+  background-color: color(ui, highlight);
+}
+.dimmed {
+  color: color(base, dimmed);
+}
+.critical-severity {
+  color: color(severity, critical);
+}
+.high-severity {
+  color: color(severity, high);
+}
+.medium-severity {
+  color: color(severity, medium);
+}
+.low-severity {
+  color: color(severity, low);
+}

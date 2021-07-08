@@ -1,0 +1,9 @@
+[data-vue='site-header'],
+.vue--site-header {
+  min-height: 64px;
+  background: linear-gradient(
+    to right,
+    color(gradient, purple-start) 0%,
+    color(gradient, purple-end) 50%
+  );
+}

@@ -1,0 +1,111 @@
+.scoped,
+html,
+body,
+input,
+textarea,
+button {
+  @include font-stack(regular, sans-serif, normal, true);
+
+  color: inherit;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-feature-settings: 'pnum';
+}
+
+html,
+input,
+textarea {
+  color: color(base, body);
+}
+
+h1 {
+  @include font-stack(regular, sans-serif, normal, true);
+}
+
+h2 {
+  @include font-stack(regular, sans-serif, normal, true);
+
+  font-size: rem(24px);
+}
+
+h3 {
+  @include font-stack(semibold, sans-serif, normal, true);
+
+  font-size: rem(20px);
+  line-height: 1.8;
+}
+
+h4,
+h5,
+h6 {
+  @include font-stack(semibold, sans-serif, normal, true);
+
+  font-size: 1rem;
+}
+
+a {
+  color: color(base, anchor);
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: color(base, anchor);
+    text-decoration: underline;
+  }
+}
+
+p {
+  margin: space(s) 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+strong {
+  @include font-stack('semibold');
+}
+
+em {
+  font-style: italic;
+}
+
+hr {
+  background-color: color(neutral, 84);
+  border: none;
+  display: block;
+  height: 1px;
+}
+
+ol {
+  margin: 0;
+  padding: 0 0 0 1em;
+  list-style: decimal;
+  font-feature-settings: 'pnum';
+
+  li {
+    margin: space(xs) 0;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 1em;
+  list-style: disc;
+  font-feature-settings: 'pnum';
+
+  li {
+    margin: space(xs) 0;
+  }
+}
+
+.footnote {
+  @include font-stack(regular, sans-serif, italic);
+
+  color: color(base, dimmed);
+  font-size: 0.875rem;
+}

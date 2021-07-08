@@ -1,0 +1,12 @@
+// A set of the most common breakpoints.
+// Useful to store as px, but should be converted to ems/rems where necessary.
+$breakpoints: (
+  xs: 420px,
+  s: 640px,
+  m: 720px,
+  default: 930px,
+  l: 1140px,
+  xl: 1280px,
+  xxl: 1440px,
+  xxxl: 1680px,
+);

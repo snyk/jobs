@@ -1,0 +1,43 @@
+.table {
+  // Start: Styles to override legacy.
+  margin-bottom: space(s);
+  width: auto;
+
+  tr {
+    border: none;
+  }
+
+  th,
+  td {
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: $line-height;
+    text-transform: none;
+    color: color(base, body);
+    padding: 0;
+    vertical-align: top;
+  }
+
+  th {
+    @include font-stack(semibold);
+  }
+  // End: Styles to override legacy.
+
+  &--basic {
+    th {
+      text-align: left;
+      padding-right: space(s);
+    }
+
+    td {
+      padding-right: space(s);
+    }
+  }
+
+  &--small {
+    th,
+    td {
+      font-size: 0.875rem;
+    }
+  }
+}

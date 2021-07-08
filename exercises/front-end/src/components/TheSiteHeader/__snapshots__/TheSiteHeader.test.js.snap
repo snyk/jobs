@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheSiteHeader Snapshots renders as expected 1`] = `
+<header class="vue--site-header">
+  <layoutcontainer-stub class="vue--site-header__container"><a href="/" class="vue--site-header__home-link">
+      <snyklogo-stub title="Snyk" fillcolor="#fff" size="52" data-snyk-test="TheSiteHeader: logo" class="vue--site-header__logo"></snyklogo-stub>
+    </a> <span class="vue--site-header__title">
+
+    </span></layoutcontainer-stub>
+</header>
+`;

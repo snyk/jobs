@@ -1,0 +1,7 @@
+.styleguide {
+  &__block-row {
+    > * {
+      margin: space(s) / 2 space(s) space(s) / 2 0;
+    }
+  }
+}

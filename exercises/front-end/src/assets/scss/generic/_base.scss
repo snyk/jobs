@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+svg:not(:root) {
+  display: inline-block;
+  fill: currentColor;
+  overflow: hidden;
+  vertical-align: middle;
+}

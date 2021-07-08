@@ -1,0 +1,43 @@
+@each $key, $value in map-get($spacing, 'default') {
+  .margin--#{$key} {
+    margin: $value - ($value / 3);
+  }
+
+  .margin-top--#{$key} {
+    margin-top: $value - ($value / 3);
+  }
+
+  .margin-right--#{$key} {
+    margin-right: $value - ($value / 3);
+  }
+
+  .margin-bottom--#{$key} {
+    margin-bottom: $value - ($value / 3);
+  }
+
+  .margin-left--#{$key} {
+    margin-left: $value - ($value / 3);
+  }
+
+  @include media-query(s) {
+    .margin--#{$key} {
+      margin: $value;
+    }
+
+    .margin-top--#{$key} {
+      margin-top: $value;
+    }
+
+    .margin-right--#{$key} {
+      margin-right: $value;
+    }
+
+    .margin-bottom--#{$key} {
+      margin-bottom: $value;
+    }
+
+    .margin-left--#{$key} {
+      margin-left: $value;
+    }
+  }
+}

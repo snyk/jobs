@@ -1,0 +1,195 @@
+/** -----------------------------------------------------------
+IMPORTANT: Due to build issues with Storybook, we've had to
+duplicate the color declarations, these colors are for CSS,
+please also update the JavaScript accessible colors in 
+src/assets/scss/variables.js
+------------------------------------------------------------ */
+
+$brand: hsl(244, 40%, 20%); // #211f47
+$brand-light: hsl(244, 25%, 40%); // #504d80
+
+$neutral-12: hsl(244, 8%, 12%);
+$neutral-24: hsl(244, 8%, 24%);
+$neutral-36: hsl(244, 8%, 36%);
+$neutral-42: hsl(244, 8%, 42%);
+$neutral-48: hsl(244, 8%, 48%);
+$neutral-66: hsl(244, 8%, 66%);
+$neutral-72: hsl(244, 8%, 72%);
+$neutral-78: hsl(244, 8%, 78%);
+$neutral-84: hsl(244, 8%, 84%);
+$neutral-90: hsl(244, 8%, 90%);
+$neutral-96: hsl(244, 8%, 96%);
+$neutral-98: hsl(244, 8%, 98%);
+
+$complementary-blue: hsl(212, 39%, 48%); // #4a77a9
+$complementary-burgundy: hsl(340, 100%, 30%); // #990033
+
+// severity none
+$severity-none: hsl(0, 0%, 75%); // #BEBEBE
+$severity-none-muted: hsl(0, 0%, 91%); // #E7E7E7
+$severity-none-text: hsl(0, 0%, 51%); // #828282
+
+// severity low
+$severity-low: hsl(243, 11%, 57%); // #88879E
+$severity-low-muted: hsl(0, 0%, 93%); // #EEEEEE
+$severity-low-text: hsl(244, 15%, 40%); // #585675
+
+// severity medium
+$severity-medium: hsl(36, 100%, 42%); // #D68000
+$severity-medium-muted: hsl(32, 100%, 90%); // #FFE8CD
+$severity-medium-text: hsl(32, 66%, 35%); // #925C1E
+
+// severity high
+$severity-high: hsl(18, 78%, 45%); // #CE5019
+$severity-high-muted: hsl(18, 100%, 90%); // #FFDBCC
+$severity-high-text: hsl(18, 76%, 35%); // #9B3D15
+
+// severity critical
+$severity-critical: hsl(0, 74%, 39%); // #AB1A1A
+$severity-critical-muted: hsl(3, 100%, 92%); // #FFDAD8
+$severity-critical-text: hsl(4, 68%, 37%); // #9E261E
+
+$action: hsl(244, 40%, 45%); // #4b45a1
+$action-create: hsl(180, 70%, 27%); // #157777
+$action-destroy: hsl(0, 80%, 40%); // #b81414
+$action-active: hsl(32, 90%, 45%); // #f59f3d
+
+$highlight: hsl(196, 100%, 80%); // #99e4ff
+$selection: hsl(47, 100%, 51%); // #FFC705
+
+$canvas: hsl(210, 67%, 98%); // #f6fafd
+$white: hsl(0, 0%, 100%); // #ffffff
+$off-white: $neutral-98;
+$code-background: hsl(70, 8%, 15%); // #272822;
+$chip-grey: $neutral-90;
+$chip-blue: hsl(213, 73%, 90%);
+$chip-orange: hsl(20, 91%, 91%);
+
+$gradient-purple-start: hsl(275, 55%, 42%);
+$gradient-purple-end: hsl(259, 69%, 37%);
+
+$console-notice: hsl(244, 44%, 80%);
+$console-warning: hsl(32, 100%, 66%);
+$console-success: hsl(88, 60%, 66%);
+$console-error: hsl(0, 100%, 66%);
+$console-link: hsl(180, 67%, 41%); //#23b0b0
+
+$social-twitter: hsl(208,80%,61%);
+
+$colors: (
+  neutral: (
+    12: $neutral-12,
+    24: $neutral-24,
+    36: $neutral-36,
+    42: $neutral-42,
+    48: $neutral-48,
+    66: $neutral-66,
+    72: $neutral-72,
+    78: $neutral-78,
+    84: $neutral-84,
+    90: $neutral-90,
+    96: $neutral-96,
+    98: $neutral-98,
+  ),
+  base: (
+    bg: $canvas,
+    body: $neutral-24,
+    heading: $neutral-12,
+    dimmed: $neutral-48,
+    inverted: $white,
+    anchor: $action,
+    anchor-hover: $action,
+    anchor-visited: $neutral-24,
+  ),
+  action: (
+    default: $action,
+    create: $action-create,
+    destroy: $action-destroy,
+    active: $action-active,
+  ),
+  ui: (
+    highlight: $highlight,
+    selection: $selection,
+    canvas: $canvas,
+    white: $white,
+    off-white: $off-white,
+    code-background: $code-background,
+  ),
+  chip: (
+    default: $chip-grey,
+    blue: $chip-blue,
+    orange: $chip-orange,
+  ),
+  brand: (
+    default: $brand,
+    light: $brand-light,
+  ),
+  alert: (
+    info: mix($action, $white, 0.1 * 100%),
+    info-border: mix($action, $white, 0.6 * 100%),
+    info-text: $action,
+    info-dismiss-bg: rgba($action, 0.05),
+    info-dismiss-border: rgba($action, 0.1),
+    success: mix($action-create, $white, 0.1 * 100%),
+    success-border: mix($action-create, $white, 0.4 * 100%),
+    success-text: darken($action-create, 2%),
+    success-dismiss-bg: rgba($action-create, 0.05),
+    success-dismiss-border: rgba($action-create, 0.1),
+    warning: mix($action-active, $white, 0.1 * 100%),
+    warning-border: mix($action-active, $white, 0.6 * 100%),
+    warning-text: darken($action-active, 11%),
+    warning-dismiss-bg: rgba($action-active, 0.05),
+    warning-dismiss-border: rgba($action-active, 0.1),
+    danger: mix($action-destroy, $white, 0.1 * 100%),
+    danger-border: mix($action-destroy, $white, 0.4 * 100%),
+    danger-text: $action-destroy,
+    danger-dismiss-bg: rgba($action-destroy, 0.05),
+    danger-dismiss-border: rgba($action-destroy, 0.1),
+  ),
+  complementary: (
+    blue: $complementary-blue,
+    burgundy: $complementary-burgundy,
+  ),
+  disabled: (
+    border: $neutral-84,
+    bg: $neutral-96,
+    text: $neutral-48,
+  ),
+  input: (
+    bg: $white,
+    border: $neutral-48,
+    border-focus: $action,
+    shadow-inset: $neutral-48,
+  ),
+  severity: (
+    critical: $severity-critical,
+    critical-muted: $severity-critical-muted,
+    critical-text: $severity-critical-text,
+    high: $severity-high,
+    high-muted: $severity-high-muted,
+    high-text: $severity-high-text,
+    medium: $severity-medium,
+    medium-muted: $severity-medium-muted,
+    medium-text: $severity-medium-text,
+    low: $severity-low,
+    low-muted: $severity-low-muted,
+    low-text: $severity-low-text,
+    none: $severity-none,
+    none-muted: $severity-none-muted,
+    none-text: $severity-none-text,
+  ),
+  gradient: (
+    purple-start: $gradient-purple-start,
+    purple-end: $gradient-purple-end,
+  ),
+  console: (
+    bg: $neutral-12,
+    muted: $neutral-72,
+    notice: $console-notice,
+    warning: $console-warning,
+    success: $console-success,
+    error: $console-error,
+    link: $console-link,
+  ),
+  social: (twitter: $social-twitter),
+);
