@@ -3,7 +3,6 @@
     <LayoutContainer :class="computedClasses">
       <a href="/" class="vue--site-header__home-link">
         <SnykLogo
-          :open="isNavOpen"
           class="vue--site-header__logo"
           fill-color="#fff"
           :size="52"
@@ -47,6 +46,7 @@ export default {
 
 .vue--site-header {
   height: 64px;
+  margin-bottom: space(l);
 
   background: linear-gradient(
     to right,

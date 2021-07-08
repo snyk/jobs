@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseBadge renders as expected 1`] = `
+<span class="vue--badge vue--badge--default vue--badge--uppercase"><!----> <span class="vue--badge__text">Foo</span>
+<!----></span>
+`;
+
+exports[`BaseBadge renders as ghost 1`] = `
+<span class="vue--badge vue--badge--default vue--badge--ghost vue--badge--uppercase"><!----> <span class="vue--badge__text">Foo</span>
+<!----></span>
+`;
+
+exports[`BaseBadge renders as lowercase 1`] = `
+<span class="vue--badge vue--badge--default"><!----> <span class="vue--badge__text">Foo</span>
+<!----></span>
+`;
+
+exports[`BaseBadge renders as pill 1`] = `
+<span class="vue--badge vue--badge--default vue--badge--pill vue--badge--uppercase"><!----> <span class="vue--badge__text">Foo</span>
+<!----></span>
+`;
+
+exports[`BaseBadge renders as small 1`] = `
+<span class="vue--badge vue--badge--default vue--badge--small vue--badge--uppercase"><!----> <span class="vue--badge__text">Foo</span>
+<!----></span>
+`;
+
+exports[`BaseBadge renders with an icon 1`] = `
+<span class="vue--badge vue--badge--with-icon vue--badge--default vue--badge--uppercase"><span class="vue--badge__icon"><githubicon-stub title="Github icon" fillcolor="currentColor" size="24"></githubicon-stub></span> <span class="vue--badge__text">Foo</span>
+<!----></span>
+`;
+
+exports[`BaseBadge renders with tooltip 1`] = `
+<span class="vue--badge vue--badge--with-tooltip vue--badge--default vue--badge--uppercase"><!----> <span class="vue--badge__text">Foo</span>
+<basetooltip-stub description="Tooltip content here." class="vue--badge__tooltip"></basetooltip-stub>
+</span>
+`;
+
+exports[`BaseBadge renders with variant 1`] = `
+<span data-snyk-ignore-wcag2aa="true" class="vue--badge vue--badge--high-severity vue--badge--uppercase"><!----> <span class="vue--badge__text">Foo</span>
+<!----></span>
+`;

@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DependenciesTree renders as expected 1`] = `
+<ul class="vue--tree vue--tree--collapsed-all" nodeid="root-node">
+  <li data-snyk-test="express#30" class="vue--tree__item">
+    <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/express@4.17.1" title="express@4.17.1" class="vue--tree__link">
+        express@4.17.1
+      </a>
+      <!---->
+    </div>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="accepts#2" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/accepts@1.3.7" title="accepts@1.3.7" class="vue--tree__link">
+            accepts@1.3.7
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="array-flatten#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/array-flatten@1.1.1" title="array-flatten@1.1.1" class="vue--tree__link">
+            array-flatten@1.1.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="body-parser#10" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/body-parser@1.19.0" title="body-parser@1.19.0" class="vue--tree__link">
+            body-parser@1.19.0
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="content-disposition#1" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/content-disposition@0.5.3" title="content-disposition@0.5.3" class="vue--tree__link">
+            content-disposition@0.5.3
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="content-type#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/content-type@1.0.4" title="content-type@1.0.4" class="vue--tree__link">
+            content-type@1.0.4
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="cookie#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/cookie@0.4.0" title="cookie@0.4.0" class="vue--tree__link">
+            cookie@0.4.0
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="cookie-signature#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/cookie-signature@1.0.6" title="cookie-signature@1.0.6" class="vue--tree__link">
+            cookie-signature@1.0.6
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="debug#1" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/debug@2.6.9" title="debug@2.6.9" class="vue--tree__link">
+            debug@2.6.9
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="depd#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/depd@1.1.2" title="depd@1.1.2" class="vue--tree__link">
+            depd@1.1.2
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="encodeurl#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/encodeurl@1.0.2" title="encodeurl@1.0.2" class="vue--tree__link">
+            encodeurl@1.0.2
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="escape-html#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/escape-html@1.0.3" title="escape-html@1.0.3" class="vue--tree__link">
+            escape-html@1.0.3
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="etag#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/etag@1.8.1" title="etag@1.8.1" class="vue--tree__link">
+            etag@1.8.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="finalhandler#7" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/finalhandler@1.1.2" title="finalhandler@1.1.2" class="vue--tree__link">
+            finalhandler@1.1.2
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="fresh#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/fresh@0.5.2" title="fresh@0.5.2" class="vue--tree__link">
+            fresh@0.5.2
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="merge-descriptors#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/merge-descriptors@1.0.1" title="merge-descriptors@1.0.1" class="vue--tree__link">
+            merge-descriptors@1.0.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="methods#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/methods@1.1.2" title="methods@1.1.2" class="vue--tree__link">
+            methods@1.1.2
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="on-finished#1" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/on-finished@2.3.0" title="on-finished@2.3.0" class="vue--tree__link">
+            on-finished@2.3.0
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="parseurl#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/parseurl@1.3.3" title="parseurl@1.3.3" class="vue--tree__link">
+            parseurl@1.3.3
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="path-to-regexp#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/path-to-regexp@0.1.7" title="path-to-regexp@0.1.7" class="vue--tree__link">
+            path-to-regexp@0.1.7
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="proxy-addr#2" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/proxy-addr@2.0.7" title="proxy-addr@2.0.7" class="vue--tree__link">
+            proxy-addr@2.0.7
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="qs#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/qs@6.7.0" title="qs@6.7.0" class="vue--tree__link">
+            qs@6.7.0
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="range-parser#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/range-parser@1.2.1" title="range-parser@1.2.1" class="vue--tree__link">
+            range-parser@1.2.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="safe-buffer#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/safe-buffer@5.1.2" title="safe-buffer@5.1.2" class="vue--tree__link">
+            safe-buffer@5.1.2
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="send#13" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/send@0.17.1" title="send@0.17.1" class="vue--tree__link">
+            send@0.17.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="serve-static#4" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/serve-static@1.14.1" title="serve-static@1.14.1" class="vue--tree__link">
+            serve-static@1.14.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="setprototypeof#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/setprototypeof@1.1.1" title="setprototypeof@1.1.1" class="vue--tree__link">
+            setprototypeof@1.1.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="statuses#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/statuses@1.5.0" title="statuses@1.5.0" class="vue--tree__link">
+            statuses@1.5.0
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree vue--tree--collapsible vue--tree--collapsed">
+      <li data-snyk-test="type-is#2" class="vue--tree__item">
+        <div tabindex="0" class="vue--tree__package"><a href="https://snyk.io/test/npm/type-is@1.6.18" title="type-is@1.6.18" class="vue--tree__link">
+            type-is@1.6.18
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="utils-merge#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/utils-merge@1.0.1" title="utils-merge@1.0.1" class="vue--tree__link">
+            utils-merge@1.0.1
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+    <ul class="vue--tree">
+      <li data-snyk-test="vary#0" class="vue--tree__item">
+        <div tabindex="-1" class="vue--tree__package"><a href="https://snyk.io/test/npm/vary@1.1.2" title="vary@1.1.2" class="vue--tree__link">
+            vary@1.1.2
+          </a>
+          <!---->
+        </div>
+        <!---->
+      </li>
+    </ul>
+  </li>
+</ul>
+`;
