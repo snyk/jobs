@@ -1,0 +1,12 @@
+<ul class="tree">
+  <li class="tree__item {{#if depTree.dependencies}} tree__item--collapsible{{/if}}">
+    <div tabindex="0" class="tree__package">
+      <a
+        href="https://snyk.io/test/npm/{{depTree.name}}@{{depTree.version}}"
+        title="{{depTree.name}}@{{depTree.version}}"
+        class="tree__link"
+      >{{depTree.name}}@{{depTree.version}}</a>
+    </div>
+    {{> dependency-tree dependencies=depTree.dependencies}}
+  </li>
+</ul>

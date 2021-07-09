@@ -1,0 +1,70 @@
+@use 'sass:math';
+/**
+ * Default font stacks
+ * ------------------------------//
+ */
+$sans-serif-stack: prenton, 'Gill Sans', 'Calibri', sans-serif;
+$serif-stack: null;
+$mono-stack: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
+/**
+ * Font stack weights
+ * -----------------------------//
+ * Override with weights provided by the font service.
+ * Some fonts use different wording for different weights
+ * for example "medium" or "book". These are usually instead
+ * of "regular" so seeing as we're abstracting the font-stack
+ * usage here it's advised to use the weight names listed here.
+ */
+$sans-serif-weights: (
+  light: 300,
+  regular: 400,
+  semibold: 500,
+  bold: 700,
+);
+$serif-weights: ();
+
+/**
+* Once you specified your font-stacks and weights
+* add them to these map variables
+*/
+$stack-map: (
+  sans-serif: $sans-serif-stack,
+  serif: $serif-stack,
+  mono: $mono-stack,
+);
+$weights-map: (
+  sans-serif: $sans-serif-weights,
+  serif: $serif-weights,
+  mono: $sans-serif-weights,
+);
+
+/**
+ * Base font-family
+ * ------------------------------//
+ */
+$base-font-family: sans-serif;
+$base-font-weight: regular;
+$base-font-style: normal;
+
+/**
+ * Base sizing
+ * ------------------------------//
+ */
+$line-height: 1.65;
+$font-size: 16px; // Percentage value ((18 / 16) * 100 = 112.5)
+$font-base: 16 * math.div($font-size, 100); // Converts our percentage to a pixel value
+
+/**
+ * Typescale
+ * ------------------------------//
+ */
+$tera: 104; // 104 = 16 × 6.5
+$giga: 80; // 80 = 16 × 5
+$mega: 64; // 64 = 16 × 4
+$alpha: 53; // 53 = 16 × 3.3333
+$beta: 42; // 42 = 16 × 2.6667
+$gamma: 32; // 32 = 16 × 2
+$delta: 21; // 21 = 16 × 1.3333
+$epsilon: 18; // 18 = 16 × 1.1667
+$zeta: 16; // 16 = 16 × 1

@@ -1,0 +1,68 @@
+@use 'sass:math';
+/**
+ * strip-unit()
+ * Remove the unit of a length
+ * @param {Number} $number - Number to remove unit from
+ * @return {Number} - Unitless number
+ * https://css-tricks.com/snippets/sass/strip-unit-function/
+ */
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return math.div($number, ($number * 0 + 1));
+  }
+
+  @return $number;
+}
+
+/**
+ * Color
+ * -------------------------------------//
+ * Helper for retrieving color values. By default, retrieves
+ * the default value of a group like so:
+ *
+ * background-color: color(action);
+ *
+ * To retrieve a specific color from the group, pass that as the
+ * second parameter:
+ *
+ * background-color: color(action, create);
+ */
+@function color($group, $color: 'default') {
+  @return map-get(map-get($colors, $group), $color);
+}
+
+/**
+ * Global
+ * -------------------------------------//
+ * Clean helper for handling the globals maps
+ */
+@function global($el, $var: 'default') {
+  @return map-get(map-get($globals, $el), $var);
+}
+
+/**
+ * Space
+ * -------------------------------------//
+ * Clean helper for handling the spacing maps
+ */
+@function space($size: default, $el: 'default', $map: $spacing) {
+  @return map-get(map-get($map, $el), $size);
+}
+
+/**
+ * Em
+ * -------------------------------------//
+ * Pixel to em converter to help readability
+ */
+@function em($pixels, $context: $font-size) {
+  @return #{math.div(strip-unit($pixels), strip-unit($context))}em;
+}
+
+/**
+ * Rem
+ * -------------------------------------//
+ * Pixel to rem converter to help readability
+ */
+@function rem($pixels, $context: $font-size) {
+  @return #{math.div(strip-unit($pixels), strip-unit($context))}rem;
+}

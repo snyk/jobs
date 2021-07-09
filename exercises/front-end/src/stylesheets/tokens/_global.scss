@@ -1,0 +1,29 @@
+$globals: (
+  site: (
+    maxWidth: 1440px,
+  ),
+  border-radius: (
+    default: 7px,
+    half: 4px,
+    micro: 2px,
+    round: 50px,
+  ),
+  border-width: (
+    default: 1px,
+    thick: 2px,
+  ),
+  hoverState: (
+    defaultBoxShadow: unquote('inset 0 0 0 1px hsl(244, 8%, 84%)'),
+    transition: unquote('box-shadow 0.2s ease'),
+    hoverBoxShadow: unquote('inset 0 0 0 1px #4b45a1'),
+    errorBoxShadow: unquote('inset 0 0 0 1px #b52d24'),
+    disabledBoxShadow: unquote('inset 0 0 0 1px hsl(244, 8%, 84%)'),
+  ),
+  focusState: (
+    outline: unquote('1px dotted hsl(244, 40%, 45%)'),
+  ),
+  box-shadow: (
+    tile: 0 0 17px 6px rgba(0, 0, 0, 0.06),
+    promo: 0 2px 12px 4px rgba(0, 0, 0, 0.19),
+  ),
+);

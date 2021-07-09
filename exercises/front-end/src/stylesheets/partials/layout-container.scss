@@ -1,0 +1,7 @@
+.layout-container {
+  max-width: global(site, maxWidth);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: space(m) - 4px; // Adjustment to match legacy styles.
+  padding-right: space(m) - 4px; // Adjustment to match legacy styles.
+}

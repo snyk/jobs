@@ -1,0 +1,42 @@
+.site-header {
+  height: 64px;
+  margin-bottom: space(l);
+
+  background: linear-gradient(
+    to right,
+    color(gradient, purple-start) 0%,
+    color(gradient, purple-end) 50%
+  );
+
+  &__container {
+    overflow: visible;
+    padding-top: space(xs);
+    padding-bottom: space(s);
+  }
+
+  &__home-link {
+    display: inline-block;
+    padding-right: space(s);
+    flex-grow: 2;
+
+    &:focus-visible {
+      outline: 2px solid color(ui, white);
+      opacity: 1;
+    }
+  }
+
+  &__title {
+    color: color(ui, white);
+    font-size: rem(22px);
+    margin: 0.25em 0;
+
+    @include media-query(s) {
+      margin: 0.25em 0.5em;
+    }
+  }
+
+  &__logo {
+    position: relative;
+    top: -3px;
+  }
+}
