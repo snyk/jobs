@@ -7,14 +7,22 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "test": "npm run lint && npm run test:unit"
+    "test": "npm run lint && npm run test:unit",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "node-sass": "^4.14.1",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-material-design-icons": "^4.12.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/vue": "^6.3.4",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
@@ -28,6 +36,7 @@
     "@vue/test-utils": "^1.2.1",
     "axe-core": "^4.2.3",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-prettier": "^3.3.1",
@@ -36,6 +45,7 @@
     "prettier": "^2.2.1",
     "sass-loader": "^10.1.1",
     "typescript": "~4.1.5",
+    "vue-loader": "^15.9.7",
     "vue-template-compiler": "^2.6.11"
   }
 }

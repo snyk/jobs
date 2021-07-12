@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseButton Snapshots renders as expected 1`] = `<button role="button" class="vue--button vue--button--cta">Button text</button>`;
+
+exports[`BaseButton Snapshots renders as expected with a passed wrapper 1`] = `<a role="button" class="vue--button vue--button--cta">Button text</a>`;

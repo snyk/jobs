@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoutFormElement Snapshots renders as expected 1`] = `
+<div class="vue--layout-form-element">
+  <div class="vue--layout-form-element__label">BaseBadge goes here</div>
+  <div class="vue--layout-form-element__field">Field goes here</div>
+</div>
+`;
+
+exports[`LayoutFormElement Snapshots renders without label markup 1`] = `
+<div class="vue--layout-form-element">
+  <!---->
+  <div class="vue--layout-form-element__field">Field goes here</div>
+</div>
+`;

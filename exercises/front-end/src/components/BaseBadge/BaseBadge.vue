@@ -10,12 +10,6 @@
     <span class="vue--badge__text">
       <slot />
     </span>
-    <BaseTooltip
-      v-if="tooltip"
-      v-bind="tooltip"
-      :size="size"
-      class="vue--badge__tooltip"
-    />
   </span>
 </template>
 
@@ -95,16 +89,11 @@ export default {
       type: Boolean,
       default: false,
     },
-    tooltip: {
-      type: Object,
-      default: null,
-    },
   },
   computed: {
     computedClasses() {
       return {
         [`vue--badge--with-icon`]: !!this.icon,
-        [`vue--badge--with-tooltip`]: !!this.tooltip,
         [`vue--badge--${this.variant}`]: !!this.variant,
         [`vue--badge--ghost`]: this.ghost !== false,
         [`vue--badge--${this.size}`]: !!this.size,
@@ -336,41 +325,6 @@ export default {
           height: rem(24px);
           width: rem(24px);
         }
-      }
-    }
-  }
-
-  &--with-tooltip {
-    padding-right: space(s) + space(xs) + 16px;
-
-    #{$self}__tooltip {
-      position: absolute;
-      right: space(s);
-      top: 6px;
-    }
-
-    &#{$self}--extra-small {
-      padding-right: space(xs) + space(xs) + 14px;
-
-      #{$self}__tooltip {
-        top: 2px;
-        right: space(xs);
-      }
-    }
-    &#{$self}--small {
-      padding-right: space(xs) + space(xs) + 14px;
-
-      #{$self}__tooltip {
-        top: 2px;
-        right: space(xs);
-      }
-    }
-    &#{$self}--large {
-      padding-right: space() + space(xs) + 18px;
-
-      #{$self}__tooltip {
-        top: 10px;
-        right: space();
       }
     }
   }

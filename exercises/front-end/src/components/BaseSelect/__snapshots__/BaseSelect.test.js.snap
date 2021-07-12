@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseSelect Snapshots renders as expected 1`] = `
+<layoutformelement-stub class="vue--select vue--select--default">
+  <div class="vue--select__container"><select id="id-drop-mic" name="name-drop-mic" class="vue--select__field">
+      <option class="vue--select__option" value="1">Option 1</option>
+      <option class="vue--select__option" value="2">Option 2</option>
+      <option class="vue--select__option" value="3">Option 3</option>
+    </select>
+    <chevrondown-stub title="Chevron Down icon" fillcolor="currentColor" size="24" class="vue--select__arrow"></chevrondown-stub>
+    <!---->
+  </div>
+  <!---->
+</layoutformelement-stub>
+`;
+
+exports[`BaseSelect Snapshots renders as minimal inverted variant 1`] = `
+<layoutformelement-stub class="vue--select vue--select--minimal-inverted">
+  <div class="vue--select__container"><select id="id-drop-mic" name="name-drop-mic" class="vue--select__field">
+      <option class="vue--select__option" value="1">Option 1</option>
+      <option class="vue--select__option" value="2">Option 2</option>
+      <option class="vue--select__option" value="3">Option 3</option>
+    </select>
+    <chevrondown-stub title="Chevron Down icon" fillcolor="currentColor" size="24" class="vue--select__arrow"></chevrondown-stub>
+    <div class="vue--select__selected-value">Option 1</div>
+  </div>
+  <!---->
+</layoutformelement-stub>
+`;
+
+exports[`BaseSelect Snapshots renders as minimal variant 1`] = `
+<layoutformelement-stub class="vue--select vue--select--minimal">
+  <div class="vue--select__container"><select id="id-drop-mic" name="name-drop-mic" class="vue--select__field">
+      <option class="vue--select__option" value="1">Option 1</option>
+      <option class="vue--select__option" value="2">Option 2</option>
+      <option class="vue--select__option" value="3">Option 3</option>
+    </select>
+    <chevrondown-stub title="Chevron Down icon" fillcolor="currentColor" size="24" class="vue--select__arrow"></chevrondown-stub>
+    <div class="vue--select__selected-value">Option 1</div>
+  </div>
+  <!---->
+</layoutformelement-stub>
+`;
+
+exports[`BaseSelect With note displays error variant 1`] = `
+<layoutformelement-stub class="vue--select vue--select--default">
+  <div class="vue--select__container"><select id="id-drop-mic" name="name-drop-mic" class="vue--select__field vue--select__field--error">
+      <option class="vue--select__option" value="1">Option 1</option>
+      <option class="vue--select__option" value="2">Option 2</option>
+      <option class="vue--select__option" value="3">Option 3</option>
+    </select>
+    <chevrondown-stub title="Chevron Down icon" fillcolor="currentColor" size="24" class="vue--select__arrow"></chevrondown-stub>
+    <!---->
+  </div>
+  <baseinputnote-stub variant="error" class="vue--select__note">
+    Note
+  </baseinputnote-stub>
+</layoutformelement-stub>
+`;
+
+exports[`BaseSelect With note renders as expected 1`] = `
+<layoutformelement-stub class="vue--select vue--select--default">
+  <div class="vue--select__container"><select id="id-drop-mic" name="name-drop-mic" class="vue--select__field">
+      <option class="vue--select__option" value="1">Option 1</option>
+      <option class="vue--select__option" value="2">Option 2</option>
+      <option class="vue--select__option" value="3">Option 3</option>
+    </select>
+    <chevrondown-stub title="Chevron Down icon" fillcolor="currentColor" size="24" class="vue--select__arrow"></chevrondown-stub>
+    <!---->
+  </div>
+  <baseinputnote-stub variant="default" class="vue--select__note">
+    Note
+  </baseinputnote-stub>
+</layoutformelement-stub>
+`;

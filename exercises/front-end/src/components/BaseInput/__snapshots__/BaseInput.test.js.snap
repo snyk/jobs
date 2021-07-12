@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseInput With note displays error variant 1`] = `
+<layoutformelement-stub fillwidth="true" class="vue--input"> <input type="text" class="vue--input__field vue--input__field--error">
+  <baseinputnote-stub variant="error" class="vue--input__note">
+    Note
+  </baseinputnote-stub>
+</layoutformelement-stub>
+`;
+
+exports[`BaseInput With note renders as expected 1`] = `
+<layoutformelement-stub fillwidth="true" class="vue--input"> <input type="text" class="vue--input__field">
+  <baseinputnote-stub variant="default" class="vue--input__note">
+    Note
+  </baseinputnote-stub>
+</layoutformelement-stub>
+`;
+
+exports[`BaseInput renders as expected 1`] = `
+<layoutformelement-stub fillwidth="true" class="vue--input" inline="true"> <input type="password" class="vue--input__field" id="some-id" disabled="disabled" name="password" placeholder="Enter a password">
+  <!---->
+</layoutformelement-stub>
+`;

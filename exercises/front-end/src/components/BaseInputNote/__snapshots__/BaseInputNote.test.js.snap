@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseInputNote renders as expected 1`] = `<div class="vue--input-note vue--input-note--info"></div>`;

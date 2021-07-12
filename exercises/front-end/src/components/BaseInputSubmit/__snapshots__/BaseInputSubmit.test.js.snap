@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseInputSubmit Character limit enforces the character limit 1`] = `
+<form class="vue--input-submit" maxlength="10" placeholder="BaseInput Placeholder">
+  <layoutformelement-stub fillwidth="true">
+    <div class="vue--input-submit__container"><input type="text" maxlength="10" placeholder="BaseInput Placeholder" class="vue--input-submit__field">
+      <basebutton-stub wrapper="button" variant="cta" size="large" disabled="true" type="submit" class="vue--input-submit__button">Submit</basebutton-stub>
+    </div>
+    <p class="vue--input-submit__note">Maximum length 10 characters.</p>
+  </layoutformelement-stub>
+</form>
+`;
+
+exports[`BaseInputSubmit renders as expected 1`] = `
+<form class="vue--input-submit" placeholder="BaseInput Placeholder">
+  <layoutformelement-stub fillwidth="true">
+    <div class="vue--input-submit__container"><input type="text" placeholder="BaseInput Placeholder" class="vue--input-submit__field">
+      <basebutton-stub wrapper="button" variant="cta" size="large" disabled="true" type="submit" class="vue--input-submit__button">Submit</basebutton-stub>
+    </div>
+    <!---->
+  </layoutformelement-stub>
+</form>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseRadio Snapshots renders as expected 1`] = `
+<layoutformelement-stub spacing="none" class="vue--radio"><label>
+    I'm a radio input
+    <input name="radio" type="radio" class="vue--radio__input" value=""> <span tabindex="0" class="vue--radio__toggle"></span></label></layoutformelement-stub>
+`;
