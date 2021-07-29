@@ -283,7 +283,7 @@ export default {
         display: block;
         height: 20px;
         font-size: 1.2em;
-        line-height: 1.3;
+        line-height: 1;
         position: absolute;
         text-align: center;
         right: 6px;
@@ -291,7 +291,7 @@ export default {
         width: 20px;
 
         @include media-query(m) {
-          line-height: 1.1;
+          line-height: 1;
         }
       }
     }
@@ -300,10 +300,10 @@ export default {
       > #{$self}__item:first-child > #{$self}__package {
         &::after {
           content: '+';
-          line-height: 1.3;
+          line-height: 1;
 
           @include media-query(m) {
-            line-height: 1.2;
+            line-height: 1;
           }
         }
       }
@@ -413,10 +413,8 @@ export default {
   &__label {
     display: inline-block;
     overflow: hidden;
-    position: relative;
     text-overflow: ellipsis;
     white-space: nowrap;
-    top: 2px;
   }
 
   &__badge {
