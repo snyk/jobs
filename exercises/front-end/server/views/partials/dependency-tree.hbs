@@ -1,0 +1,17 @@
+<ul class="tree{{#if dependencies}} tree--collapsible{{/if}}">
+  {{#each dependencies}}
+    <li
+      class="tree__item"
+    >
+      <div tabindex="0" class="tree__package">
+        <a
+          href="https://snyk.io/test/npm/{{this.name}}@{{this.version}}"
+          title="{{this.name}}@{{this.version}}"
+          class="tree__link"
+        >
+          {{this.name}}@{{this.version}}
+        </a>
+      </div>
+    </li>
+  {{/each}}
+</ul>
