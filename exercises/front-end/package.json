@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "sass src/stylesheets/styles.scss public/stylesheets/style.css",
     "start": "node ./bin/www",
+    "test": "npm run lint",
+    "build": "sass src/stylesheets/styles.scss public/stylesheets/style.css",
+    "dev": "concurrently 'npm run watch' 'sleep 1 && npm run browser-sync'",
     "watch": "concurrently 'npm run watch-scss' 'npm run watch-server'",
     "watch-scss": "sass --watch src/stylesheets/styles.scss public/stylesheets/style.css",
     "watch-server": "nodemon",
-    "test": "npm run lint",
+    "browser-sync": "browser-sync start --proxy localhost:3001 --files=**/*  --ignore=node_modules --no-ui",
     "lint": "eslint --ext .js,.ts . && prettier --check '**/*.{js,ts}'",
     "format": "prettier --write '**/*.{js,ts}'"
   },
@@ -22,6 +24,7 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.27.5",
     "concurrently": "^6.2.0",
     "eslint": "^7.31.0",
     "eslint-plugin-prettier": "^3.4.0",

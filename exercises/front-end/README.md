@@ -9,13 +9,14 @@ Install dependencies:
 npm ci
 ```
 
-Run the application in a mode which will watch for file changes:
+Run the application in a mode which will watch for file changes, and refresh the browser automatically when files are changed:
 ```
-npm run watch
+npm run dev
 ```
 
 Or alternatively, to run in "production" mode:
 ```
+npm build
 npm start
 ```
 
