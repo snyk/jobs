@@ -59,11 +59,13 @@ express@4.17.1             [-]
 
 #### Additional notes:
 
-You may well want to introduce JavaScript in order to apply this behaviour. Feel free to make a JavaScript file within the `public directory`, which will expose the file at `http://localhost:3001/path/to/file.js`.
+We would really like you to accomplish this task using JavaScript. You might think of a way to achieve this task using without JavaScript (only using HTML & CSS), and that'd be a great thing to discuss during your next interview, however please refrain from a pure HTML/CSS solution, as we would like to see your JavaScript skills.
 
-It'd be great to see you working with Vanilla JS for this task (no frameworks) so that we can get an understanding of your pure JavaScript skills.
+Feel free to make a JavaScript file within the `/public` directory, which will expose the file at `http://localhost:3001/path/to/file.js`.
 
-As part of this task we would like to see your CSS skills, please make the relevant changes in `src/stylesheets/partials/dependency-tree.scss` in order to display the closed state with a `[+]` symbol to the right instead of a `[-]`.
+It'd be great to see you working with Vanilla JS for this task (no frameworks) so that we can get an understanding of your pure JavaScript skills. If you find it easier to work with a framework, please use it as little as possible, so we can see your JavaScript skills.
+
+Although this task is focused on a JS solution, we would also like to see you write some CSS/Sass. Please make the relevant changes in `src/stylesheets/partials/dependency-tree.scss` in order to display the closed state with a `[+]` symbol to the right instead of a `[-]`.
 
 ### Task 3
 
