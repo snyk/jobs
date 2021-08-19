@@ -1,30 +1,93 @@
-### Exercise
+# Front End Exercise
 
-This excercise is to assess your skills in front-end development. It is similar to a typical task you would work on at Snyk.
+An exercise which starts with a simple codebase which renders a dependency tree using Handlebars for templates and Sass for styling.
 
-You are given the attached design and asked to turn it into a webpage. It's intended as a standalone page.
+## Running locally
 
-![Design mockup](mockup.png)
+Install dependencies:
+```
+npm ci
+```
 
-You can use whatever tools/preprocessors you are most comfortable with, or you can use just pure HTML and CSS.
+Run the application in a mode which will watch for file changes, and refresh the browser automatically when files are changed:
+```
+npm run dev
+```
 
-We've simplified the design in an effort to make it quicker for you to build. Don't worry about exact measurements or getting the colours or text the same as the mockup – use your own judgement for this. The mockup uses Arial for ease of building. Use placeholder images such as from https://placekitten.com/ rather than worring about getting the right image.
+Or alternatively, to run in "production" mode:
+```
+npm build
+npm start
+```
 
-#### Things to consider
+You can now visit http://localhost:3001 to view it.
 
-  1. As a distributed team, documentation is really important to us. We'll be impressed by inline comments or well-written documentation that goes alongside it. In particular, we'll need to know how to view your example locally!
-  2. We love code that is easy to reuse, remix and maintain.
-  3. We're particularly interested in how you approach building the layout as a whole.
+## Tests
 
-#### Implementation
+To run linting run:
+```
+npm test
+```
 
-  1. You can either build this as a single HTML page with the CSS in it, or create it as a series of files.
-  2. Make sure the page is responsive – it should adapt to small screened devices. How you approach this is up to you.
+## Exercise
 
-Don't spend too long on this – we appreciate that this is your own time and we don't want to take up more than is necessary. Anything you don't have time to do we can talk through how you'd implement it instead. And if there's something you're struggling with, make a note and move on. At Snyk, you'd have a whole team to support you when you get stuck.
+### Task 1
 
-When you're finished, let us know and we'll go through your example together. Talk to us about the bits you found easy, the bits you found hard, and how you'd improve your solution if you had more time.
+This server only renders the first level of dependencies (`depTree.dependencies`). However if you look at the fixture data at `fixtures/depTree.fixture.js` you will notice that several of the dependencies have nested dependencies themselves.
 
-Any questions? Let us know!
+Modify the Handlebars templates so that all levels of dependencies are rendered. 
 
-✨ Good luck! ✨
+#### Additional notes:
+
+To help speed you up, the files at `views/dependencies.hbs` and `views/partials/dependency-tree.hbs` will both be relevant to this task.
+
+### Task 2
+
+You may notice that each of the dependencies appear clickable, and there is a `[-]` icon on the right side of each one. The child dependencies of the clicked dependency should toggle visibility whenever this is clicked (hide on first click, and show again when clicked for a second time). The icon should change from a `[-]` to a `[+]` whenever the child dependencies are hidden.
+
+
+Example:
+```
+express@4.17.1             [-]
+ |- accepts@1.3.7          [-]
+ |   |- mime-types@2.1.31  [-]
+ |   |  └- mime-db@1.48.0
+ |   └- negotiator@0.6.2
+ |- array-flatten@1.1.1
+ |- ...
+ ```
+
+#### Additional notes:
+
+We would really like you to accomplish this task using JavaScript. You might think of a way to achieve this task using without JavaScript (only using HTML & CSS), and that'd be a great thing to discuss during your next interview, however please refrain from a pure HTML/CSS solution, as we would like to see your JavaScript skills.
+
+Feel free to make a JavaScript file within the `/public` directory, which will expose the file at `http://localhost:3001/path/to/file.js`.
+
+It'd be great to see you working with Vanilla JS for this task (no frameworks) so that we can get an understanding of your pure JavaScript skills. If you find it easier to work with a framework, please use it as little as possible, so we can see your JavaScript skills.
+
+Although this task is focused on a JS solution, we would also like to see you write some CSS/Sass. Please make the relevant changes in `src/stylesheets/partials/dependency-tree.scss` in order to display the closed state with a `[+]` symbol to the right instead of a `[-]`.
+
+### Task 3
+
+Introduce some tests. Add at least one test. You can again choose any framework / test runner you like, and we are happy with either unit tests or integration / E2E tests.
+
+#### Additional notes:
+
+If you get to this point and you've already been writing tests as you go along, you can pat yourself on the back!
+
+### Task 4 - Bonus task (if you get time)
+
+The dependency tree currently loads from a fixture file at `fixtures/depTree.fixture.js`.
+
+Run the server found at `exercises/npm-registry`
+```bash
+cd exercises/npm-registry
+npm ci
+npm start
+```
+Use the JSON response from this server at `http://localhost:3000/package/{packageName}/latest` (e.g. http://localhost:3000/package/express/latest) to populate the DependenciesTree instead of using the fixture file.
+
+#### Additional notes:
+
+Handlebars expects the data to be in a different shape, so some transformation will be needed.
+

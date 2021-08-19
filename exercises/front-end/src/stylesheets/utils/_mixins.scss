@@ -1,0 +1,237 @@
+/**
+ * Media Query
+ * -------------------------------------//
+ * Use either with a breakpoint from our standard set.
+ * e.g. @include media-query(m)
+ *
+ * Or use directly using a px value.
+ * e.g. @include media-query(500px)
+ */
+@mixin media-query($bp: 'default') {
+  @if map-has-key($breakpoints, $bp) {
+    @media only screen and (min-width: em(map-get($breakpoints, $bp))) {
+      @content;
+    }
+  } @else {
+    @media only screen and (min-width: em($bp)) {
+      @content;
+    }
+  }
+}
+
+/**
+ * Font stack mixin
+ * -------------------------------------//
+ * This mixin abstracts out font family, style and weight declarations
+ * so you can use font types (serif, sans-serif etc) instead of font
+ * names e.g.
+
+ @include font-stack(); //Use default values
+
+ @include font-stack("bold", "serif", "normal")
+
+ * Becomes:
+
+ font-family: "Verdana", sans-serif;
+ font-style: normal;
+ font-weight: 400;
+
+ font-family: "Georgia", serif;
+ font-style: normal;
+ font-weight: 700;
+
+ * The mixin is setup to only apply styles that differ from the base
+ * styles. To override this behaviour there's a force option we
+ * can be set to true.
+ *
+ * Credit: http://nodivide.us/ - Ryan Taylor
+ */
+@mixin font-stack(
+  $weight: $base-font-weight,
+  $type: $base-font-family,
+  $style: $base-font-style,
+  $force: null
+) {
+  /**
+   * Force apply font-family, font-style, font-weight
+   */
+  @if $force {
+    font-family: map-get($stack-map, $type);
+    font-style: $style;
+    font-weight: map-get(map-get($weights-map, $type), $weight);
+  } @else {
+    /**
+     * Selectively apply font-family, font-style and font-weights that differ from
+     * the base settings
+     */
+
+    @if ($type != $base-font-family) {
+      font-family: map-get($stack-map, $type);
+    }
+
+    @if ($style != $base-font-style) {
+      font-style: $style;
+    }
+
+    @if ($weight != $base-font-weight) {
+      font-weight: map-get(map-get($weights-map, $type), $weight);
+    }
+  }
+}
+
+// Fluid typography increases its size based on viewport
+// https://css-tricks.com/snippets/css/fluid-typography/
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  & {
+    font-size: $min-font-size;
+
+    @media screen and (min-width: $min-vw) {
+      font-size: calc(
+        #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+          ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+      );
+    }
+
+    @media screen and (min-width: $max-vw) {
+      font-size: $max-font-size;
+    }
+  }
+}
+
+// Typographic presets
+// http://localhost:3500/docs/design/typography
+@mixin typeset($preset, $line-height: null, $font-weight: null) {
+  @if $preset == code {
+    @include font-stack(if($font-weight, $font-weight, 400), mono);
+
+    font-feature-settings: 'pnum';
+    font-size: 90%;
+    font-variant: proportional-nums;
+    line-height: if($line-height, $line-height, 1.5);
+    white-space: pre;
+  } @else if $preset == indicator {
+    font-feature-settings: 'pnum';
+    font-size: rem(14px);
+    font-variant: proportional-nums;
+    font-weight: if($font-weight, $font-weight, normal);
+    letter-spacing: 0.125em;
+    line-height: if($line-height, $line-height, 1);
+    text-transform: uppercase;
+  } @else if $preset == label {
+    font-feature-settings: 'pnum';
+    font-size: rem(16px);
+    font-variant: proportional-nums;
+    font-weight: if($font-weight, $font-weight, 400);
+    line-height: if($line-height, $line-height, 1);
+  } @else if $preset == caption {
+    @include fluid-type(320px, 800px, 12px, 14px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, normal);
+    hanging-punctuation: first;
+    hyphens: auto;
+    line-height: if($line-height, $line-height, 1.25);
+  } @else if $preset == text {
+    @include fluid-type(320px, 800px, 14px, 16px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, normal);
+    hanging-punctuation: first;
+    hyphens: auto;
+    line-height: if($line-height, $line-height, 1.33);
+  } @else if $preset == subhead {
+    @include fluid-type(320px, 800px, 16px, 18px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, 500);
+    line-height: if($line-height, $line-height, 1.25);
+    text-rendering: optimizeLegibility;
+  } @else if $preset == heading {
+    @include fluid-type(320px, 800px, 18px, 20px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, 500);
+    line-height: if($line-height, $line-height, 1.25);
+    text-rendering: optimizeLegibility;
+  } @else if $preset == display1 {
+    @include fluid-type(320px, 800px, 20px, 24px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, 500);
+    line-height: if($line-height, $line-height, 1);
+    text-rendering: optimizeLegibility;
+  } @else if $preset == display2 {
+    @include fluid-type(320px, 800px, 24px, 32px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, 500);
+    line-height: if($line-height, $line-height, 1);
+    text-rendering: optimizeLegibility;
+  } @else if $preset == display3 {
+    @include fluid-type(320px, 800px, 32px, 36px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, 500);
+    line-height: if($line-height, $line-height, 1);
+    text-rendering: optimizeLegibility;
+  } @else if $preset == poster {
+    @include fluid-type(320px, 800px, 36px, 44px);
+
+    font-feature-settings: 'pnum';
+    font-variant: common-ligatures proportional-nums;
+    font-weight: if($font-weight, $font-weight, bold);
+    line-height: if($line-height, $line-height, 1);
+    text-rendering: optimizeLegibility;
+  } @else {
+    @warn "The preset '#{$preset}' is not recognised";
+  }
+}
+
+@mixin fieldStyles() {
+  -webkit-appearance: none;
+  background-color: color(input, bg);
+  border: none;
+  border-radius: global(border-radius, micro);
+  display: inline-block;
+  line-height: rem(28px);
+  padding: space(xs) space(s);
+  width: 100%;
+
+  &::placeholder {
+    color: color(disabled, text);
+  }
+}
+
+@mixin hoverState() {
+  box-shadow: global(hoverState, defaultBoxShadow);
+  transition: global(hoverState, transition);
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus {
+    box-shadow: global(hoverState, hoverBoxShadow);
+    outline: none;
+  }
+}
+
+@mixin errorState() {
+  box-shadow: global(hoverState, errorBoxShadow);
+  transition: global(hoverState, transition);
+}
+
+@mixin disabledState() {
+  background-color: color(disabled, bg);
+  box-shadow: global(hoverState, disabledBoxShadow);
+  border: none;
+  cursor: no-drop;
+  color: color(disabled, text);
+  opacity: 1;
+}

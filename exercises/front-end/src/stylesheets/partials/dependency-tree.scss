@@ -1,0 +1,135 @@
+.tree {
+  $self: &;
+
+  border-left: none !important; // Override legacy
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 space(m);
+  position: relative;
+  width: 100%;
+
+  &::before {
+    background-color: color(neutral, 72);
+    content: '';
+    display: block;
+    height: calc(100% + 12px);
+    left: space(s);
+    position: absolute;
+    top: -31px;
+    width: 2px;
+  }
+
+  &:first-child {
+    padding-left: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:first-child > #{$self}__item:first-child > #{$self}__package {
+    background-color: color(neutral, 96);
+    margin-top: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &--last {
+    &::before {
+      height: 51px;
+    }
+  }
+
+  &__spinner {
+    background-color: color(neutral, 84);
+    height: 34px;
+    margin-top: 13px;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 1px;
+    width: 34px;
+    z-index: 10;
+  }
+
+  &__item {
+    padding: 0;
+    margin: 0;
+
+    &--collapsible {
+      > #{$self}__package {
+        cursor: pointer;
+        transition: box-shadow 0.2s ease;
+
+        &:hover {
+          box-shadow: inset 0 0 0 1px color(action), 0 0 0 1px color(action);
+        }
+
+        &::after {
+          border: 1px solid color(neutral, 72);
+          content: '-';
+          display: block;
+          height: 20px;
+          font-size: 1.2em;
+          line-height: 1;
+          position: absolute;
+          text-align: center;
+          right: 6px;
+          top: 8px;
+          width: 20px;
+
+          @include media-query(m) {
+            line-height: 1;
+          }
+        }
+      }
+    }
+  }
+
+  &__package {
+    align-items: center;
+    background-color: color(ui, white);
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 1px color(neutral, 72), 0 0 0 2px transparent;
+    display: flex;
+    font-size: rem(14px);
+    line-height: 1.6;
+    font-variant: proportional-nums;
+    height: 38px;
+    margin: space(s) 0;
+    padding: space(s) * 0.5 space(xxl) space(s) * 0.5 space(s);
+    position: relative;
+    z-index: 2;
+
+    @include media-query(m) {
+      font-size: 1rem;
+    }
+
+    &::before {
+      background-color: color(neutral, 72);
+      content: '';
+      display: block;
+      height: 2px;
+      left: -#{space(s)};
+      margin-top: -1px;
+      position: absolute;
+      top: 50%;
+      width: space(s);
+      z-index: 1;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &:hover {
+      color: color(action);
+      text-decoration: underline;
+    }
+  }
+}

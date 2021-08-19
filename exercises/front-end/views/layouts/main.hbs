@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://static.snyk.io/prod/static-assets/style/build/styles/app.min.3cafb3b0160cbd0a221a3a5d9696699e.md5.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/snyk/image/upload/v1468845142/favicon/favicon.ico"
+    />
+    <title>
+      {{title}}
+    </title>
+  </head>
+  <body>
+    <div id="app">
+      {{> header title=title}}
+      {{#> layout-container}}
+        {{{body}}}
+      {{/layout-container}}
+    </div>
+  </body>
+</html>
