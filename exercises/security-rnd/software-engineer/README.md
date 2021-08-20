@@ -20,20 +20,23 @@ You can obtain package data through the npm registry: `https://registry.npmjs.or
 
 #### Things to consider
 
-  1. Look at the inner "dependencies" object for analysis of first-order dependencies.
+  1. Look at the inner "dependencies" object for analysis of its dependencies and do so recursively.
   2. There are currently over 800K packages on npmjs.com, and the number is growing all the time.
   3. The packages update from time to time, just as their dependencies.
   4. What makes a good web service? API, architecture, data storage, low latency, scalability, monitoring, you name it :)
   5. Consider the quality and structure of your codebase; is it maintainable?
-  6. Consider production readiness (to some extent) and is it safe to deploy changes?
+  6. Consider production readiness (to some extent) 
+ 
 
-#### Implementation
+#### Implementation 
 
-  1. A working web application that, given a name of an npm published package, returns the set of dependencies for said package.
-  2. Present the dependencies in a tree view.
-  3. Account of asyncronous fetching of dependencies as you see fit.
-  4. Cache relevant data so that repeated requests resolve with minimum latency.
+  1. A working web application that, given a name of an npm published package, returns the set of the (recursive) dependencies for said package. Consider that different types of clients can make use of this endpoint.
+  2. The endpoint should return the recursive dependencies of a package as a dependency tree - should you get the whole dependency tree all at once or not? Why? Please justify this in your README
+  3. Account of asynchronous fetching of dependencies as you see fit.
+  4. Cache relevant data so that repeated requests resolve with minimum latency
+  5. Add a few tests on the backend side
+  6. Add a README with instructions on how to install, run and test your code. Please, elaborate on your technical decisions you considered along the way.
   
-  **We strongly suggest to implement this task in Python, as this is the main language used by our team**
+  **We strongly suggest to implement this task in Python, as this is the main language used by our team, but we are happy for you to use another language if you feel it would allow you to better express your skillset. Please to make sure to give detailed instructions about how to use your code if you do decide to use another language**
 
 Good luck!
