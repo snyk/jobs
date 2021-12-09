@@ -1,11 +1,8 @@
 package snyk.io.plugin.challenge
 
 import com.intellij.ide.impl.ProjectUtil
-import com.intellij.openapi.diagnostic.logger
 import com.intellij.openapi.vfs.newvfs.BulkFileListener
 import com.intellij.openapi.vfs.newvfs.events.VFileEvent
-
-private val LOG = logger<SnykBulkFileListener>()
 
 class SnykBulkFileListener : BulkFileListener {
     override fun before(events: MutableList<out VFileEvent>) {

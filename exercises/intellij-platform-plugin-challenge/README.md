@@ -1,25 +1,29 @@
 # Snyk Plugin Development Interview
 
-![Build](https://github.com/snyk/intellij-platform-plugin-challenge/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
-
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+## Goals
+We would like to have a functionality to scan for all Kubernetes files in a project. To achieve this
+we would need to analyse files and record the file name and associated container images (there can be 0..n) 
+in a cache to later access that data. When a file event occurs, (e.g. create, change or delete) we need
+to update the cache. And last, we would like to highlight the `image` tag if existent in found Kubernetes
+files using an IntelliJ annotator.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+## Getting started
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+Kubernetes files have a `.yaml` or `.yml` file ending and can be identified as a Kubernetes file by their 
+`kind` and `apiVersion` YAML elements at the start of the file. 
+
+Look through the source code and the tests - there are already some tests and classes marked with `TODO` to get started.
+
+- `KubernetesImageAnnotator`: this class should highlight the `image` YAML elements
+- `SnykBulkFileListener`: this class should react on file events
+- `SnykPostStartupActivity`: this class is called after startup and should initialize our cache
+- `KubernetesImageCacheService`: this class should contain the recorded image information
+
+Quality is important, so each of these classes have corresponding test classes. 
+
+
+
 <!-- Plugin description end -->
 
 ## Installation

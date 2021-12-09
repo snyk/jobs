@@ -9,6 +9,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <projectService serviceImplementation="snyk.io.plugin.challenge.services.KubernetesImageCacheService"/>
         <postStartupActivity implementation="snyk.io.plugin.challenge.SnykPostStartupActivity"/>
+        <annotator language="" implementationClass="snyk.io.plugin.challenge.annotators.KubernetesImageAnnotator"/>
     </extensions>
 
     <applicationListeners>

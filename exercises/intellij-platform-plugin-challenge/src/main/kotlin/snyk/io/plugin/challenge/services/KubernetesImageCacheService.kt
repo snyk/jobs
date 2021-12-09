@@ -1,5 +1,6 @@
 package snyk.io.plugin.challenge.services
 
+import com.intellij.openapi.components.Service
 import com.intellij.openapi.project.Project
 
 /**
@@ -10,6 +11,7 @@ The Kubernetes Image Cache should do the following:
 - Analyse files and record the file name and associated container images (there can be 0..n) in a cache
 - Be able to analyse a file and update the cache when given a file event (e.g. create, change or delete)
  */
+@Service
 class KubernetesImageCacheService(project: Project) {
   // TODO implement me!
 }
