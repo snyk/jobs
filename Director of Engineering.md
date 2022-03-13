@@ -1,5 +1,14 @@
 ## Director of Engineering - Container Security
 
+Mikołaj Roszak
+Przedwiośnie 79/12
+73-110 Stargard
+Web: www.mikolaj.com
+email me: ul.echo12@gmail.com
+          mikolaj@mikolaj.com
+skype: mikolajroszak_1
+Tel. +48 500 487 977
+
 **Snyk's mission is to help developers use open source code and stay secure.** The use of open source is booming, but [security is a key concern](https://snyk.io/stateofossecurity/). Snyk’s product enables developers and enterprise security to continuously find & fix vulnerable dependencies without slowing down, with seamless integration into Dev & DevOps workflows.  
 Snyk is adopted by over 200,000 developers, has multiple enterprise customers (such as Google, Heroku, New Relic, ASOS and others) and is growing rapidly.
 
