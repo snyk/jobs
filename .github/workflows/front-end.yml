@@ -1,4 +1,6 @@
 name: Node.js CI
+- name: Codecov
+  uses: codecov/codecov-action@v3.1.0
 
 on:
   push:
